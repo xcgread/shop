@@ -14,5 +14,6 @@
 		<module>spring-base</module>
 		<module>spring-api</module>
 		<module>shop-main</module>
+		<module>spring-0xml</module>
 	</modules>
 </project>
