@@ -1,8 +1,0 @@
-server:
-   port: 8090
-dubbo:
-   application:
-      name: dubbo-consumer
-   registry:
-      address: zookeeper://debug-registry:2181 #N/A
-   test: dubbo://localhost:20880

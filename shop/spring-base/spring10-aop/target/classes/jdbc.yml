@@ -1,5 +1,0 @@
-jdbc:
-  driver: com.mysql.cj.jdbc.Driver
-  url: jdbc:mysql://debug-registry:3306/mall
-  username: root
-  password: root
