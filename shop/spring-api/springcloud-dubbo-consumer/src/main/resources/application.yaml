@@ -1,0 +1,7 @@
+server:
+   port: 8090
+dubbo:
+   registry:
+      address: spring-cloud://debug-registry # 注册中心
+   cloud:
+      subscribed-services: springcloud-dubbo-provider # 订阅的提供者名称

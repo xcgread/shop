@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>shop-cxf</artifactId>
+	<name>shop-cxf</name>
+	<description>shop-cxf</description>
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>com.xuzhihao.shop</groupId>
+		<artifactId>shop-main</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>com.xuzhihao.shop</groupId>
+			<artifactId>shop-common</artifactId>
+		</dependency>
+		<!-- CXF webservice -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-spring-boot-starter-jaxws</artifactId>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.spotify</groupId>
+				<artifactId>docker-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

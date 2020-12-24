@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.xuzhihao</groupId>
+	<artifactId>shop</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>spring-mybatis-learn</module>
+		<module>spring-learn</module>
+		<module>mybatis-learn</module>
+		<module>design-learn</module>
+		<module>spring-base</module>
+		<module>spring-api</module>
+		<module>shop-main</module>
+	</modules>
+</project>

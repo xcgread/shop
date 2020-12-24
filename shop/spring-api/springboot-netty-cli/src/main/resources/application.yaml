@@ -1,0 +1,8 @@
+server:
+   port: 9999
+channel:
+   id: 1327
+netty:
+   server:
+      host: 172.17.17.165
+      port: 9873

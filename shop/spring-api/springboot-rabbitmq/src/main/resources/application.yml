@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  rabbitmq:
+    addresses: debug-registry:5672
+    username: guest
+    password: guest
+    virtual-host: /
+    publisher-confirm-type: correlated    #发送确认 对应RabbitTemplate.ConfirmCallback接口
+    publisher-returns: true    #发送失败回退，对应RabbitTemplate.ReturnCallback接口
+    listener:
+      direct:
+        acknowledge-mode: manual
+      simple:  
+        acknowledge-mode: manual

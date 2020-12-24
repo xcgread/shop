@@ -1,0 +1,88 @@
+server:
+   port: 8201
+spring:
+   zipkin:
+      base-url: http://debug-registry:9411/ #zipkin server的请求地址
+      discoveryClientEnabled: false #让nacos把它当成一个URL，而不要当做服务名
+   sleuth:
+      sampler:
+         probability: 1.0 #采样的百分比
+   cloud:
+      gateway:
+         discovery:
+            locator:
+               enabled: true
+               lower-case-service-id: true #使用小写service-id
+         routes: #配置路由路径
+         -  id: shop-auth
+            uri: lb://shop-auth
+            predicates:
+            - Path=/shop-auth/**
+            filters:
+            - StripPrefix=1
+         -  id: shop-admin
+            uri: lb://shop-admin
+            predicates:
+            - Path=/shop-admin/**
+            filters:
+            - StripPrefix=1
+         -  id: shop-search
+            uri: lb://shop-search
+            predicates:
+            - Path=/shop-search/**
+            filters:
+            - StripPrefix=1
+         -  id: shop-portal
+            uri: lb://shop-portal
+            predicates:
+            - Path=/shop-portal/**
+            filters:
+            - StripPrefix=1
+   security:
+      oauth2:
+         resourceserver:
+            jwt:
+               jwk-set-uri: http://127.0.0.1:8201/shop-auth/rsa/publicKey #配置RSA的公钥访问地址
+   redis:
+      host: debug-registry # Redis服务器地址
+      database: 10 # Redis数据库索引（默认为0）
+      port: 6379 # Redis服务器连接端口
+      password: null # Redis服务器连接密码（默认为空）
+      timeout: 3000ms # 连接超时时间（毫秒
+      pool:
+         max-active: 8 # 连接池最大连接数（使用负值表示没有限制）
+         max-wait: -1 # 连接池最大阻塞等待时间（使用负值表示没有限制）
+         max-idle: 8 # 连接池中的最大空闲连接
+         min-idle: 0 # 连接池中的最小空闲连接
+secure:
+   ignore:
+      urls: #配置白名单路径
+      - /doc.html
+      - /swagger-resources/**
+      - /swagger/**
+      - /**/v2/api-docs
+      - /**/*.js
+      - /**/*.css
+      - /**/*.png
+      - /**/*.ico
+      - /webjars/springfox-swagger-ui/**
+      - /actuator/**
+      - /shop-auth/oauth/token
+      - /shop-auth/rsa/publicKey
+      - /shop-search/**
+      - /shop-portal/sso/login
+      - /shop-portal/sso/register
+      - /shop-portal/sso/getAuthCode
+      - /shop-portal/home/**
+      - /shop-portal/product/**
+      - /shop-admin/admin/login
+      - /shop-admin/admin/register
+      - /shop-admin/minio/upload
+management:
+   endpoints:
+      web:
+         exposure:
+            include: '*'
+   endpoint:
+      health:
+         show-details: always
