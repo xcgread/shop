@@ -16,10 +16,10 @@ public class IndexController {
 		return new UserEntity("xcg", "18");
 	}
 
-	@RequestMapping(value = "/index", method = RequestMethod.GET)
-	public ModelAndView index() {
-		ModelAndView modelAndView = new ModelAndView("/index");
-		modelAndView.addObject("name", "admin");
+	@RequestMapping(value = "/main", method = RequestMethod.GET)
+	public ModelAndView main() {
+		ModelAndView modelAndView = new ModelAndView("/main");
+		modelAndView.addObject("name", "admin" + System.currentTimeMillis());
 		return modelAndView;
 	}
 }

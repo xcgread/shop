@@ -1,51 +1,40 @@
 package com.xuzhihao.config;
 
-import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletRegistration;
+
+import org.springframework.web.WebApplicationInitializer;
+import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
+import org.springframework.web.servlet.DispatcherServlet;
+
+import com.xuzhihao.config.WebMvcConfig;
 
 import cn.hutool.log.Log;
 import cn.hutool.log.LogFactory;
 
 /**
- * @author admin.
- * @Description 项目启动初始化类 相当于web.xml
- * @date 2018/4/26.
+ * 编程式的启动web
+ * 
+ * @author Administrator
  *
  */
-public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
-
+//servlet 3.0 SPI规范
+public class WebAppInitializer implements WebApplicationInitializer {
 	private static final Log log = LogFactory.get();
 
-	/**
-	 * spring 根容器
-	 * 
-	 * @return
-	 */
-	@Override
-	protected Class<?>[] getRootConfigClasses() {
-		log.info("------root配置类初始化------");
-		return new Class<?>[] { RootConfig.class };
-	}
+	// tomcat 启动的时候会调用 onStartup方法 为什么？
+	// 传入一个ServletContext ： web上下文对象 web.xml能做的 ServletContext都能做
 
-	/**
-	 * Spring mvc容器
-	 * 
-	 * @return
-	 */
-	@Override
-	protected Class<?>[] getServletConfigClasses() {
-		log.info("------web配置类初始化------");
-		return new Class<?>[] { WebMvcConfig.class };
+	// 因为servlet 3.0的一个新规范,跟tomcat没关系，tomcat是规范的实现者之一。
+	// 为什么不是tomcat规范而是servlet规范？因为市面上有很多web容器，例如jetty。如果你是web容器的规范，如果换了容器，代码将不再适用。
+	// SPI "你"=>这里指的是spring
+	public void onStartup(ServletContext servletContext) {
+		log.info("META-INF/services/org.springframework.web.SpringServletContainerInitializer");
+		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
+		context.register(WebMvcConfig.class);
+		DispatcherServlet servlet = new DispatcherServlet(context);
+		ServletRegistration.Dynamic registration = servletContext.addServlet("webapp", servlet);
+		registration.setLoadOnStartup(1);
+		registration.addMapping("/");
 	}
-
-	/**
-	 * DispatcherServlet映射,从"/"开始
-	 * 
-	 * @return
-	 */
-	@Override
-	protected String[] getServletMappings() {
-		log.info("------映射根路径初始化------");
-		return new String[] { "/" };
-	}
-
 }
