@@ -25,7 +25,7 @@ public class Application {
 		// 设置appBase为项目所在目录
 		tomcat.getHost().setAppBase(System.getProperty("user.dir"));
 
-		Context context = tomcat.addContext("/", "E:\\gitlocal2\\shop\\shop\\spring-0xml\\src\\main\\webapp");
+		Context context = tomcat.addContext("/", "D:\\java\\work_1.8\\shop\\shop\\springmvc-tomcat8\\src\\main\\webapp");
 //		Context context = tomcat.addContext("/", System.getProperty("java.io.tmpdir"));
 
 		// addContext和addWebapp的区别：只会去初始化一个 context的资源目录(项目) 并不会加载
