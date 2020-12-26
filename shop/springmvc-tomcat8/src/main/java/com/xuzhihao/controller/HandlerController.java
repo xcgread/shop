@@ -14,7 +14,17 @@ import org.springframework.web.HttpRequestHandler;
 // 3种实现： @Controller、implements Controller/HttpRequestHandler
 @Component("/json3")
 public class HandlerController implements HttpRequestHandler {
-
+//	支持servlet参数
+//	HttpServletRequest
+//	HttpServletResponse
+//	HttpSession
+//	java.security.Principal
+//	Locale
+//	InputStream
+//	OutputStream
+//	Reader
+//	Writer
+	
 	@Override
 	public void handleRequest(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
