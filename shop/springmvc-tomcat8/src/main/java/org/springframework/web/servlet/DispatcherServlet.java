@@ -1379,7 +1379,7 @@ public class DispatcherServlet extends FrameworkServlet {
 			if (mv.getStatus() != null) {
 				response.setStatus(mv.getStatus().value());
 			}
-			//渲染视图
+			//渲染视图核心逻辑在这里
 			view.render(mv.getModelInternal(), request, response);
 		}
 		catch (Exception ex) {
