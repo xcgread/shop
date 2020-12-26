@@ -8,7 +8,8 @@ import org.apache.catalina.startup.Tomcat;
 public class Application {
 	// https://blog.csdn.net/ly91526188/article/details/80110149
 	// https://www.cnblogs.com/lusaisai/p/13121668.html 原理
-	//https://www.jianshu.com/p/3a3edbcd8f24 spi
+	// https://www.jianshu.com/p/3a3edbcd8f24 spi
+	// https://blog.csdn.net/guanzhengyinqin/article/details/85255840 自定义参数处理器
 
 	public static void main(String[] args) throws Exception {
 		Tomcat tomcat = new Tomcat();
@@ -25,14 +26,15 @@ public class Application {
 		// 设置appBase为项目所在目录
 		tomcat.getHost().setAppBase(System.getProperty("user.dir"));
 
-		Context context = tomcat.addContext("/", "D:\\java\\work_1.8\\shop\\shop\\springmvc-tomcat8\\src\\main\\webapp");
-//		Context context = tomcat.addContext("/", System.getProperty("java.io.tmpdir"));
+		Context context = tomcat.addContext("/",
+				"D:\\java\\work_1.8\\shop\\shop\\springmvc-tomcat8\\src\\main\\webapp");
+//	Context context = tomcat.addContext("/", System.getProperty("java.io.tmpdir"));
 
 		// addContext和addWebapp的区别：只会去初始化一个 context的资源目录(项目) 并不会加载
 		// web的生命周期Tomcat的文件夹webapps，目录内是我们的项目
 		// 有两种方式启动项目：1.war 2.文件夹
-//		tomcat.addWebapp("/", "E:\\gitlocal2\\shop\\shop\\spring-0xml\\src\\main\\webapp");
-//		tomcat.addWebapp("/","webapp");
+//	tomcat.addWebapp("/", "E:\\gitlocal2\\shop\\shop\\spring-0xml\\src\\main\\webapp");
+//	tomcat.addWebapp("/","webapp");
 		// 手动添加生命周期监听器
 		context.addLifecycleListener(
 				(LifecycleListener) Class.forName(tomcat.getHost().getConfigClass()).newInstance());
@@ -40,7 +42,8 @@ public class Application {
 		tomcat.start();
 		// 维持tomcat服务，否则tomcat一启动就会关闭
 		tomcat.getServer().await();
-
 	}
-
 }
+
+//1.DispatcherServlet->doService->doDispatch->getHandler->(从不同handlerMappings类型中获取URI)
+//2.getHandler->getHandlerInternal(AbstractUrlHandlerMapping/AbstractHandlerMethodMapping)

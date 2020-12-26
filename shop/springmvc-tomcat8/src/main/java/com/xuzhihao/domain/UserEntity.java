@@ -2,9 +2,9 @@ package com.xuzhihao.domain;
 
 public class UserEntity {
 	public String name;
-	public String age;
+	public int age;
 
-	public UserEntity(String name, String age) {
+	public UserEntity(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}
@@ -17,11 +17,11 @@ public class UserEntity {
 		this.name = name;
 	}
 
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
 
-	public void setAge(String age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 
