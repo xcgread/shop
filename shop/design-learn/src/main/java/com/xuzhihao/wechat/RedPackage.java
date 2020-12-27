@@ -1,4 +1,4 @@
-package com.xuzhihao.design.wechat;
+package com.xuzhihao.wechat;
 
 import java.util.ArrayList;
 import java.util.Collections;

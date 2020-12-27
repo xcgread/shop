@@ -1,6 +1,8 @@
-package com.xuzhihao.design.wechat;
+package com.xuzhihao;
 
 import java.util.List;
+
+import com.xuzhihao.wechat.RedPackage;
 
 /**
  * 红包发放
