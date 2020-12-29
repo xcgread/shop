@@ -5,7 +5,9 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.Ordered;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import com.xuzhihao.config.handle.LoginFilter;
@@ -31,8 +33,8 @@ public class WebConfig implements WebMvcConfigurer {
 	 */
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
-		registry.addInterceptor(loginHandlerInterceptor).addPathPatterns("/**").excludePathPatterns("/index.html", "/",
-				"/user/login");
+		registry.addInterceptor(loginHandlerInterceptor).addPathPatterns("/**").// 对来自/*这个链接来的请求进行拦截
+				excludePathPatterns("/error", "/css/**", "/js/**", "/images/**", "/plugins/**"); // 添加不拦截路径
 	}
 
 	/**
@@ -62,5 +64,16 @@ public class WebConfig implements WebMvcConfigurer {
 		ServletListenerRegistrationBean registrationBean = new ServletListenerRegistrationBean();
 		registrationBean.setListener(loginSessionListener);
 		return registrationBean;
+	}
+
+	/**
+	 * 配置项目启动加载的首页
+	 * 
+	 * @param registry
+	 */
+	@Override
+	public void addViewControllers(ViewControllerRegistry registry) {
+		registry.addViewController("/").setViewName("view/login");
+		registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
 	}
 }
