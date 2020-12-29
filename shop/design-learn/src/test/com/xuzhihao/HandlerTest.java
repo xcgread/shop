@@ -1,9 +1,14 @@
-package com.xuzhihao.design.mode.hand;
+package com.xuzhihao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Client {
+import com.xuzhihao.design.mode.hand.AirHandler;
+import com.xuzhihao.design.mode.hand.BikeHandler;
+import com.xuzhihao.design.mode.hand.CarHandler;
+import com.xuzhihao.design.mode.hand.Handler;
+
+public class HandlerTest {
 
 	public static void main(String[] args) {
 		List<Handler> l = new ArrayList<Handler>();

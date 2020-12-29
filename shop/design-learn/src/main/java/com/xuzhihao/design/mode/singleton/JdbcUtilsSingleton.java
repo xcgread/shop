@@ -20,8 +20,16 @@ import java.sql.Statement;
 //	静态内部类 适用于多线程
 public final class JdbcUtilsSingleton {
 
-	private static String driver = "com.mysql.cj.jdbc.Driver";
-	private String url = "jdbc:mysql://debug-registry:3306/mall";
+	private static final String driver = "com.mysql.cj.jdbc.Driver";// mysql驱动
+//	private static final String driver = "oracle.jdbc.driver.OracleDriver"; // oracle驱动
+//	private static final String driver = "org.postgresql.Driver"; // postgresql驱动
+//	private static final String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"; // sqlserver驱动
+	
+	private static final String url = "jdbc:mysql://debug-registry:3306/mall";// mysql地址
+//	private static final String url = "jdbc:oracle:thin:@172.17.17.37:1521:ORCL"; // oracle地址
+//	private static final String url = "jdbc:postgresql://172.17.17.38:5432/VJSP10003182"; // postgresql地址
+//	private static final String url = "jdbc:sqlserver://172.17.17.172:1433; DatabaseName=maptest"; // sqlserver地址
+	
 	private String username = "root";
 	private String password = "root";
 

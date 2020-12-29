@@ -10,7 +10,7 @@ import com.xuzhihao.wechat.RedPackage;
  * @author Administrator
  *
  */
-public class Unit {
+public class WechatTest {
 
 	public static void main(String[] args) {
 		List<Integer> amountList = RedPackage.divideRedPackage(100, 10);

@@ -43,7 +43,7 @@ public class RedPackage {
 	 * @param totalPeopleNum 红包个数
 	 */
 	public static List<Double> divideRedPackage2(Integer totalAmount, Integer totalPeopleNum) {
-		List<Integer> list = new ArrayList<Integer>();//线段集合
+		List<Integer> list = new ArrayList<Integer>();// 线段集合
 		List<Double> amountList = new ArrayList<Double>();
 		Random random = new Random();
 		while (list.size() <= totalPeopleNum - 2) {
@@ -66,17 +66,4 @@ public class RedPackage {
 		amountList.add(AmountUtil.div(AmountUtil.sub(totalAmount, fl), 100));
 		return amountList;
 	}
-
-	public static void main(String[] args) {
-		List<Integer> amountList = divideRedPackage(100, 10);
-		for (Integer amount : amountList) {
-			 System.out.println("抢到金额：" + amount);
-		}
-
-		List<Double> amountList2 = divideRedPackage2(200, 30);
-		for (Double amount : amountList2) {
-			System.out.println("抢到金额：" + amount);
-		}
-	}
-
 }
