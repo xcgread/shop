@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE configuration>
 <configuration>
-	<!--日志文件主目录：这里${user.home}为当前服务器用户主目录-->
-    <property name="LOG_HOME" value="${user.home}/logs"/>
-    <!--引用默认日志配置-->
-    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
-    <!--使用默认的控制台日志输出实现-->
-    <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
-    <!--应用名称-->
-    <springProperty scope="context" name="APP_NAME" source="spring.application.name" defaultValue="springBoot"/>
-    <!--LogStash访问host-->
-    <springProperty name="LOG_STASH_HOST" scope="context" source="logstash.host" defaultValue="localhost"/>
+	<!--引用默认日志配置-->
+ 	<include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+ 	<!--LogStash访问host-->
+ 	<springProperty name="LOG_STASH_HOST" source="logstash.host" defaultValue="localhost"/>
+ 	<!--自定义脱敏-->
+	<conversionRule conversionWord="msg"
+		converterClass="com.xuzhihao.shop.common.component.SensitiveDataConverter">
+	</conversionRule>
+
+    <!-- 输出控制台 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <Pattern><![CDATA[ [%-5level] [%d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] [%logger.%method:%line] -- %message%n ]]></Pattern>
+        </encoder>
+    </appender>
     
     <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <destination>${LOG_STASH_HOST}:4560</destination>
         <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder" />
     </appender>
-
+    
     <!--接口访问记录日志输出到LogStash-->
     <appender name="LOG_STASH_COMMON" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <destination>${LOG_STASH_HOST}:4563</destination>
@@ -33,7 +38,7 @@
                         "level": "%level",
                         "service": "${APP_NAME:-}",
                         "class": "%logger",
-                        "message": "%message"
+                        "message": "%msg"
                         }
                     </pattern>
                 </pattern>
@@ -45,8 +50,7 @@
                 <connectionTTL>5 minutes</connectionTTL>
             </roundRobin>
         </connectionStrategy>
-    </appender>
-    
+    </appender>    
       <!--业务日志输出到LogStash-->
     <appender name="LOG_STASH_BUSINESS" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <destination>${LOG_STASH_HOST}:4562</destination>
@@ -67,7 +71,7 @@
                         "pid": "${PID:-}",
                         "thread": "%thread",
                         "class": "%logger{40}",
-                        "rest": "%message"
+                        "rest": "%msg"
                         }
                     </pattern>
                 </pattern>
@@ -80,20 +84,15 @@
             </roundRobin>
         </connectionStrategy>
     </appender>
-    
-    <!--  日志输出级别,排序为： TRACE < DEBUG < INFO < WARN < ERROR -->
+ 
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
         <appender-ref ref="LOGSTASH" />
     </root>
-    
-    <logger name="cn.com.common.aspect.WebLogAspect" level="DEBUG">
+    <logger name="com.xuzhihao.shop.common.aspect.WebLogAspect" level="DEBUG">
         <appender-ref ref="LOG_STASH_COMMON"/>
     </logger>
-
     <logger name="com.xuzhihao.shop.admin.controller" level="DEBUG">
         <appender-ref ref="LOG_STASH_BUSINESS"/>
     </logger>
-    
-    
 </configuration>
