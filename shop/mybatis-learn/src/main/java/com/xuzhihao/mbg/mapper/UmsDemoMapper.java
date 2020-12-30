@@ -1,5 +1,6 @@
 package com.xuzhihao.mbg.mapper;
 
+import com.xuzhihao.interceptor.plugin.VersionLocker;
 import com.xuzhihao.mbg.model.UmsDemo;
 import com.xuzhihao.mbg.model.UmsDemoExample;
 import java.util.List;
@@ -26,5 +27,6 @@ public interface UmsDemoMapper {
 
     int updateByPrimaryKeySelective(UmsDemo record);
 
+//    @VersionLocker(false)
     int updateByPrimaryKey(UmsDemo record);
 }

@@ -68,7 +68,7 @@ public class CommentGenerator extends DefaultCommentGenerator {
 		// 只在model中添加swagger注解类的导入
 		if (!compilationUnit.isJavaInterface()
 				&& !compilationUnit.getType().getFullyQualifiedName().contains(EXAMPLE_SUFFIX)) {
-//            compilationUnit.addImportedType(new FullyQualifiedJavaType(API_MODEL_PROPERTY_FULL_CLASS_NAME));
+			compilationUnit.addImportedType(new FullyQualifiedJavaType(API_MODEL_PROPERTY_FULL_CLASS_NAME));
 		}
 	}
 }
