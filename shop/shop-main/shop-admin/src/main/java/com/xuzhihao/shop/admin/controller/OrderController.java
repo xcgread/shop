@@ -14,6 +14,7 @@ import com.xuzhihao.shop.common.aspect.WebLogAspect;
 import cn.hutool.json.JSONUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * 订单管理Controller 包含敏感词
@@ -22,7 +23,7 @@ import io.swagger.annotations.ApiOperation;
 @Api(tags = "OrderController", description = "订单管理")
 @RequestMapping("/order")
 public class OrderController {
-	private static final Logger LOGGER = LoggerFactory.getLogger(WebLogAspect.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(OrderController.class);
 
 	@ApiLogs
 	@ApiOperation("查询订单")
@@ -42,9 +43,7 @@ public class OrderController {
 		parameter.put("desc", "我们都是好孩子");
 
 		
-		
 		LOGGER.info(JSONUtil.parse(parameter).toString());
-		
 		parameter.put("realName", "打完老虎的日志应该是在拦截器中出现");
 		return parameter;
 	}
