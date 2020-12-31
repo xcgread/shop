@@ -1,14 +1,10 @@
 package com.xuzhihao.shop.common.component;
 
-import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import ch.qos.logback.classic.pattern.MessageConverter;
 import ch.qos.logback.classic.spi.ILoggingEvent;
-import cn.hutool.core.collection.CollUtil.Hash;
-import cn.hutool.core.util.EscapeUtil;
-import cn.hutool.json.JSONUtil;
 
 /**
  * @author 日志脱敏插件
@@ -28,7 +24,6 @@ public class SensitiveDataConverter extends MessageConverter {
 
 	@Override
 	public String convert(ILoggingEvent event) {
-		System.out.println("-");
 		String oriLogMsg = event.getFormattedMessage();
 		// 获取脱敏后的日志
 		String afterLogMsg = invokeMsg(oriLogMsg);
@@ -64,7 +59,7 @@ public class SensitiveDataConverter extends MessageConverter {
 
 							// 对获取的值进行脱敏
 							String subStr = tempMsg.substring(valueStart, valueEnd);
-							subStr = tuomin(EscapeUtil.unescapeHtml4(subStr), key);
+							subStr = tuomin(subStr, key);
 							///
 							tempMsg = tempMsg.substring(0, valueStart) + subStr + tempMsg.substring(valueEnd);
 						}
@@ -73,14 +68,6 @@ public class SensitiveDataConverter extends MessageConverter {
 			}
 		}
 		return tempMsg;
-	}
-	public static void main(String[] args) {
-		HashMap<String, Object>	parameter=new HashMap<String, Object>();
-		parameter.put("name", "我们");
-		String aaaaa="\\\"今晚打老虎";
-		
-		System.out.println("原始 str = " + aaaaa);
-		String str1 = EscapeUtil.unescapeHtml4(aaaaa);
 	}
 
 	/**

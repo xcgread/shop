@@ -34,7 +34,6 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;
 import cn.hutool.json.JSONUtil;
 import io.swagger.annotations.ApiOperation;
-import net.logstash.logback.marker.Markers;
 
 /**
  * 统一日志处理切面
