@@ -9,12 +9,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.xuzhihao.shop.common.annotation.ApiLogs;
-import com.xuzhihao.shop.common.aspect.WebLogAspect;
 
 import cn.hutool.json.JSONUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * 订单管理Controller 包含敏感词
