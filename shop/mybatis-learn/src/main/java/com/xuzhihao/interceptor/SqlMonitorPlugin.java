@@ -39,7 +39,7 @@ import com.xuzhihao.Appliaction;
 		@Signature(type = Executor.class, method = "update", args = { MappedStatement.class, Object.class }) })
 public class SqlMonitorPlugin implements Interceptor {
 
-	private static Logger log = Logger.getLogger(Appliaction.class);
+	private static Logger log = Logger.getLogger(SqlMonitorPlugin.class);
 
 	@Override
 	public Object intercept(Invocation invocation) throws Throwable {

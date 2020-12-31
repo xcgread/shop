@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.xuzhihao.interceptor.plugin;
+package com.xuzhihao.interceptor.locker;
 
 import java.util.concurrent.ConcurrentHashMap;
 

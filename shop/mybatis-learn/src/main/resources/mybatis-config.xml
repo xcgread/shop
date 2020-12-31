@@ -6,9 +6,10 @@
 	<properties resource="db.properties"></properties>
 	<plugins>
 		<plugin interceptor="com.xuzhihao.interceptor.OptimisticLocker">
-			<property name="versionColumn" value="version" /><!--数据库的列名 -->
-			<property name="versionField" value="version" /> <!--java字段名 -->
+			<property name="versionColumn" value="version" /> <!-- 数据库的列名 -->
+			<property name="versionField" value="version" /> <!-- java字段名 -->
 		</plugin>
+		<plugin interceptor="com.xuzhihao.interceptor.FieldEncryptInterceptor" />
 		<plugin interceptor="com.xuzhihao.interceptor.SqlMonitorPlugin" />
 	</plugins>
 	<!-- 设置一个默认的连接环境信息，支持多数据源 -->

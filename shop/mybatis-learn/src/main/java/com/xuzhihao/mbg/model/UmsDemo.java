@@ -2,11 +2,15 @@ package com.xuzhihao.mbg.model;
 
 import java.io.Serializable;
 
+import com.xuzhihao.interceptor.encrpyt.SensitiveFormat;
+
 public class UmsDemo implements Serializable {
     private Long id;
 
+    @SensitiveFormat("realName")
     private String username;
 
+    @SensitiveFormat("address")
     private String password;
 
     private Integer version;

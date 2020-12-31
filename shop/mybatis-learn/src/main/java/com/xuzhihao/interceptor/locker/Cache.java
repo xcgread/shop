@@ -1,4 +1,4 @@
-package com.xuzhihao.interceptor.plugin;
+package com.xuzhihao.interceptor.locker;
 
 import java.util.Arrays;
 

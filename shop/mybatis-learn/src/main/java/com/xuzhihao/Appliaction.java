@@ -52,13 +52,14 @@ public class Appliaction {
 //		4 Example用法
 //		Criteria criteria = example.createCriteria();
 //		criteria.andIdLessThan(1000L);
-//		List<UmsDemo> selectByExample = msDemoMapper.selectByExample(example);
+//		List<UmsDemo> selectByExample = umsDemoMapper.selectByExample(example);
 //		System.out.println(selectByExample);
 
 //		5 Ex
 		UmsDemo umsDemo = umsDemoMapper.selectByPrimaryKey(955L);
+		System.out.println(umsDemo);
 		int rtn = umsDemoMapper.updateByPrimaryKey(umsDemo);
-		log.info(rtn+"--->");
+		log.info("更新结果--->" + rtn);
 
 		sqlSession.commit();
 		sqlSession.flushStatements();

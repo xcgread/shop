@@ -25,11 +25,11 @@ import org.apache.ibatis.reflection.SystemMetaObject;
 import org.apache.log4j.Logger;
 
 import com.xuzhihao.Appliaction;
-import com.xuzhihao.interceptor.plugin.Cache;
-import com.xuzhihao.interceptor.plugin.LocalVersionLockerCache;
-import com.xuzhihao.interceptor.plugin.VersionLocker;
-import com.xuzhihao.interceptor.plugin.VersionLockerCache;
-import com.xuzhihao.interceptor.plugin.Cache.MethodSignature;
+import com.xuzhihao.interceptor.locker.Cache;
+import com.xuzhihao.interceptor.locker.LocalVersionLockerCache;
+import com.xuzhihao.interceptor.locker.VersionLocker;
+import com.xuzhihao.interceptor.locker.VersionLockerCache;
+import com.xuzhihao.interceptor.locker.Cache.MethodSignature;
 
 import net.sf.jsqlparser.expression.Expression;
 import net.sf.jsqlparser.expression.LongValue;
@@ -110,14 +110,14 @@ public class OptimisticLocker implements Interceptor {
 			throw new BindingException("value of version field[" + versionField + "]can not be empty");
 		}
 		String originalSql = boundSql.getSql();
-		
+
 		log.info("==> originalSql: " + originalSql);
-		
+
 		originalSql = addVersionToSql(originalSql, versionColumn, originalVersion);
 		metaObject.setValue("delegate.boundSql.sql", originalSql);
-		
+
 		log.info("==> originalSql after add version: " + originalSql);
-		
+
 		return invocation.proceed();
 	}
 
