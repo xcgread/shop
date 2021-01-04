@@ -60,7 +60,7 @@ public class BinaryTree {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main2(String[] args) {
 		int[] array = { 12, 76, 35, 22, 16, 48, 90, 46, 9, 40 };
 		BinaryTree root = new BinaryTree(array[0]);// 创建二叉树
 		for (int i = 1; i < array.length; i++) {
@@ -75,4 +75,58 @@ public class BinaryTree {
 		System.out.println("后根遍历：");
 		postOrder(root);
 	}
+
+	public static void main(String[] args) {
+		int n = 16;
+		String s = Integer.toBinaryString(n);
+		byte[] b = s.getBytes();
+		for (int i = 1; i < b.length; i++) {
+			System.out.println(b[i]);
+		}
+		System.out.println(64>>>3);
+//		System.out.println((n & (n - 1)) == 0);
+
+//		System.out.println(nCF3(n));
+	}
+
+	public static boolean nCF3(int n) {
+		boolean boo = true;
+		String s = Integer.toBinaryString(n);
+		byte[] b = s.getBytes();
+
+		for (int i = 1; i < b.length; i++) {
+			if (b[i] != 48) {
+				boo = false;
+				break;
+			}
+		}
+		return boo;
+	}
+
+	public static void main4(String[] args) {
+		int n = 17;
+		System.out.println(n % 3);
+		System.out.println(n / 3);
+
+		System.out.println(nCF(n));
+	}
+
+	public static boolean nCF(int n) {
+		boolean b = false;
+		while (true) {
+			int j = n % 2;
+			n = n / 2;
+			if (j == 1) {
+				b = false;
+				break;
+			}
+			if (n == 2) {
+				b = true;
+				break;
+			}
+
+		}
+		return b;
+	}
+
 }

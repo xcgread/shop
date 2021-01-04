@@ -17,8 +17,8 @@ public class note {
 //   n |= n >>> 8;
 //   n |= n >>> 16;
 
-//	或运算符 有1为1
 //	与运算符 都为1才是1
+//	或运算符 有1为1
 //	异或运算符 相同为0 不同为1
 
 	// 工厂模式
@@ -28,12 +28,10 @@ public class note {
 	// 策略模式 优化if else eg:handlerMappings
 	// 观察者模式
 	// 单例模式
-
 	public static void main(String[] args) {
 		int a = 3;
-		System.out.println("a 非的结果是：" + (~a));
 
-		System.out.println(100 % 3);
+		System.out.println(100 / 3);
 	}
 
 }
