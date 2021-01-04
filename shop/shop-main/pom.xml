@@ -34,6 +34,8 @@
 		<shop-common.version>0.0.1-SNAPSHOT</shop-common.version>
 		<shop-mbg.version>0.0.1-SNAPSHOT</shop-mbg.version>
 		<hutool.version>4.5.7</hutool.version>
+		<minio.version>7.1.0</minio.version>
+		<aliyun-oss.version>2.5.0</aliyun-oss.version>
 		<knife4j.version>2.0.4</knife4j.version>
 		<logstash-logback.version>5.3</logstash-logback.version>
 		<admin-starter-server.version>2.2.3</admin-starter-server.version>
@@ -234,6 +236,18 @@
 				<groupId>com.nimbusds</groupId>
 				<artifactId>nimbus-jose-jwt</artifactId>
 				<version>${nimbus-jose-jwt.version}</version>
+			</dependency>
+			<!--MinIO JAVA SDK -->
+			<dependency>
+				<groupId>io.minio</groupId>
+				<artifactId>minio</artifactId>
+				<version>${minio.version}</version>
+			</dependency>
+			<!-- 阿里云OSS -->
+			<dependency>
+				<groupId>com.aliyun.oss</groupId>
+				<artifactId>aliyun-sdk-oss</artifactId>
+				<version>${aliyun-oss.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
