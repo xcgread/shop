@@ -4,17 +4,9 @@ import java.util.Arrays;
 
 public class Sort {
 
+	static int[] data = { 3, 6, 10, 2, 19, 1 };
+
 	public static void main(String[] args) {
-
-//		bubble();
-		BinaryMerge();
-	}
-
-	/**
-	 * 冒泡排序
-	 * 
-	 */
-	public static void bubble() {
 		int a = 3, b = 5;
 		a = a + b;// a==8,b==5
 		b = a - b;// a==8,b==3
@@ -24,7 +16,37 @@ public class Sort {
 		b = a ^ b;
 		a = a ^ b;
 		System.out.println(a + "," + b);
-		int[] data = { 3, 6, 10, 2, 19, 1 };
+		
+
+		insert();// 插入排序
+//		bubble();//冒泡排序
+//		BinaryMerge();//归并排序
+
+		for (int i = 0; i < data.length; i++) {
+			System.out.println(data[i]);
+		}
+	}
+
+	/**
+	 * 插入排序
+	 */
+	public static void insert() {
+		for (int i = 1; i < data.length; i++) {
+			for (int j = i; j > 0; j--) {
+				if (data[j] < data[j - 1]) {
+					int temp = data[j - 1];
+					data[j - 1] = data[j];
+					data[j] = temp;
+				}
+			}
+		}
+	}
+
+	/**
+	 * 冒泡排序
+	 * 
+	 */
+	public static void bubble() {
 		for (int i = 0; i < data.length; i++) {
 			for (int j = 0; j < data.length - 1; j++) {
 				if (data[j] > data[j + 1]) {
@@ -33,9 +55,6 @@ public class Sort {
 					data[j + 1] = temp;
 				}
 			}
-		}
-		for (int i = 0; i < data.length; i++) {
-			System.out.println(data[i]);
 		}
 	}
 
