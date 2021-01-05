@@ -42,6 +42,23 @@ docker run -dti --network=host --name storage -e TRACKER_SERVER=192.168.3.200:22
 ```bash
 docker run -d -p 2181:2181 -v /mysoft/zookeeper/data/:/data/ --name=zookeeper  --privileged zookeeper  #启动zk
 ```
+- 使用docker容器运行Portainer
+
+```bash
+docker run -p 9000:9000 -p 8000:8000 --name portainer \
+--restart=always \
+-v /var/run/docker.sock:/var/run/docker.sock \
+-v /mydata/portainer/data:/data \
+-d portainer/portainer
+```
+- 下载MinIO,默认Access Key和Secret都是minioadmin
+
+```bash
+docker run -p 9090:9000 --name minio \
+  -v /mydata/minio/data:/data \
+  -v /mydata/minio/config:/root/.minio \
+  -d minio/minio server /data
+```
 
 ## 3. Dockerfile
 
