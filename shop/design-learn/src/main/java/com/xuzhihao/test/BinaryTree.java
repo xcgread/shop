@@ -1,8 +1,8 @@
 package com.xuzhihao.test;
 
 //java BinaryTree
-
 //二叉树
+//判断一个数是不是2的幂次方
 public class BinaryTree {
 
 	int data; // 根节点数据
@@ -78,15 +78,8 @@ public class BinaryTree {
 
 	public static void main(String[] args) {
 		int n = 16;
-		String s = Integer.toBinaryString(n);
-		byte[] b = s.getBytes();
-		for (int i = 1; i < b.length; i++) {
-			System.out.println(b[i]);
-		}
-		System.out.println(64>>>3);
-//		System.out.println((n & (n - 1)) == 0);
-
-//		System.out.println(nCF3(n));
+		System.out.println((n & (n - 1)) == 0);
+		System.out.println(nCF3(n));
 	}
 
 	public static boolean nCF3(int n) {
