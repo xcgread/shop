@@ -12,7 +12,7 @@
 		<module>shop-admin</module>
 		<module>shop-search</module>
 		<module>shop-gateway</module>
-		<module>shop-fastdfs</module>
+		<module>shop-attach</module>
 		<module>shop-monitor</module>
 		<module>shop-cxf</module>
 		<module>shop-auth</module>
