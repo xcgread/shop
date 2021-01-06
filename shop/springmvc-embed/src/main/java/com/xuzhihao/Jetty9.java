@@ -1,13 +1,19 @@
 package com.xuzhihao;
 
+import java.util.EnumSet;
+
+import javax.servlet.DispatcherType;
+
 import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
+import org.eclipse.jetty.servlet.FilterHolder;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
+import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.DispatcherServlet;
 
 import com.xuzhihao.config.WebConfig;
@@ -25,10 +31,16 @@ public class Jetty9 {
 	}
 
 	private ServletContextHandler servletContextHandler(WebApplicationContext context) {
+		CharacterEncodingFilter filter = new CharacterEncodingFilter();
+		filter.setEncoding("UTF-8");
+		filter.setForceEncoding(true);
+		
 		ServletContextHandler handler = new ServletContextHandler();
 		handler.setContextPath(CONTEXT_PATH);
 		handler.addServlet(new ServletHolder(new DispatcherServlet(context)), MAPPING_URL);
 		handler.addEventListener(new ContextLoaderListener(context));
+		handler.addFilter(new FilterHolder(filter), MAPPING_URL, EnumSet.allOf(DispatcherType.class));
+//		handler.setInitParameter("contextConfigLocation", "classpath:spring-server.xml");
 		return handler;
 	}
 
