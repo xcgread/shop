@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.MethodParameter;
 import org.springframework.core.Ordered;
 import org.springframework.http.CacheControl;
+import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
@@ -20,12 +21,12 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 
+import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 import com.xuzhihao.annotation.UserParam;
 
 @Configuration
@@ -85,6 +86,12 @@ public class WebConfig implements WebMvcConfigurer {
 		return viewResolver;
 	}
 
+	@Override
+	public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
+		FastJsonHttpMessageConverter fastJsonHttpMessageConverter = new FastJsonHttpMessageConverter();
+		converters.add(fastJsonHttpMessageConverter);
+	}
+
 	/**
 	 * 启用spring mvc 的注解（不启用只能通过显示的配置）
 	 */
@@ -111,10 +118,8 @@ public class WebConfig implements WebMvcConfigurer {
 	 */
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
-		// 采用转发的方式
-		// registry.addViewController( "/" ).setViewName( "forward:/home" );
-		// 直接返回页面的方式
-		registry.addViewController("/").setViewName("index");
+		registry.addViewController( "/" ).setViewName( "forward:/index" );
+//		registry.addViewController("/").setViewName("index");//视图名称直接跳转
 		registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
 	}
 

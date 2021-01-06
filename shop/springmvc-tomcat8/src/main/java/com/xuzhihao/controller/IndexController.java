@@ -9,17 +9,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.xuzhihao.annotation.UserParam;
 import com.xuzhihao.domain.UserEntity;
 
 @Controller
-@SessionAttributes("user")
 public class IndexController {
 
-	
 	@RequestMapping("/index")
 	public String index(HttpServletRequest request, HttpServletResponse response, ModelMap map) {
 		map.put("name", "admin");
@@ -39,6 +36,7 @@ public class IndexController {
 		return new UserEntity("xcg", 18);
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@RequestMapping("/json4")
 	@ResponseBody // user 对象 Map
 	public Object test(String name, HttpServletRequest request, HttpServletResponse response, @UserParam Map map) {
