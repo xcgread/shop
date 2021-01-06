@@ -16,12 +16,12 @@ import org.apache.log4j.Logger;
 //1.DispatcherServlet->doService->doDispatch->getHandler->(从不同handlerMappings类型中获取URI)
 //2.getHandler->getHandlerInternal(AbstractUrlHandlerMapping/AbstractHandlerMethodMapping)
 
-public class EmbeddedTomcat8 {
+public class Tomcat8embed {
 
-	private final Logger log = Logger.getLogger(EmbeddedTomcat8.class);
+	private final Logger log = Logger.getLogger(Tomcat8embed.class);
 
 	private static String CONTEXT_PATH = "/"; // 二级路径
-	private static String WEB_APP_PATH = EmbeddedTomcat8.class.getResource("/").getPath();
+	private static String WEB_APP_PATH = Tomcat8embed.class.getResource("/").getPath();
 	private static int PORT = 80;
 
 	private Tomcat tomcat = new Tomcat();
@@ -53,7 +53,7 @@ public class EmbeddedTomcat8 {
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
-		EmbeddedTomcat8 embededTomcat = new EmbeddedTomcat8();
-		embededTomcat.start();
+		Tomcat8embed tomcat8embed = new Tomcat8embed();
+		tomcat8embed.start();
 	}
 }
