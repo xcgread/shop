@@ -11,6 +11,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
+		<jetty.version>9.4.17.v20190418</jetty.version>
+		<log4j.version>2.4.1</log4j.version>
+		<slf4j.version>1.7.25</slf4j.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -41,7 +44,18 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<version>8.5.60</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.25</version>
+		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -63,6 +77,23 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.47</version>
 		</dependency>
+		<!-- jetty -->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlet</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlets</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>

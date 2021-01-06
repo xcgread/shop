@@ -3,7 +3,6 @@ package com.xuzhihao;
 import org.apache.catalina.core.AprLifecycleListener;
 import org.apache.catalina.core.StandardServer;
 import org.apache.catalina.startup.Tomcat;
-import org.apache.log4j.Logger;
 
 /**
  * TOMCAT8
@@ -16,14 +15,11 @@ import org.apache.log4j.Logger;
 //1.DispatcherServlet->doService->doDispatch->getHandler->(从不同handlerMappings类型中获取URI)
 //2.getHandler->getHandlerInternal(AbstractUrlHandlerMapping/AbstractHandlerMethodMapping)
 
-public class Tomcat8embed {
+public class Tomcat8 {
 
-	private final Logger log = Logger.getLogger(Tomcat8embed.class);
-
-	private static String CONTEXT_PATH = "/"; // 二级路径
-	private static String WEB_APP_PATH = Tomcat8embed.class.getResource("/").getPath();
 	private static int PORT = 80;
-
+	private static String CONTEXT_PATH = "/"; // 二级路径
+	private static String WEB_APP_PATH = Tomcat8.class.getResource("/").getPath();
 	private Tomcat tomcat = new Tomcat();
 
 	public void start() throws Exception {
@@ -40,12 +36,10 @@ public class Tomcat8embed {
 		tomcat.start();
 		tomcat.getServer().await();
 
-		log.info("============== Tomcat 启动 ==============");
 	}
 
 	public void stop() throws Exception {
 		tomcat.stop();
-		log.info("============== Tomcat 终止 ==============");
 	}
 
 	/**
@@ -53,7 +47,7 @@ public class Tomcat8embed {
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
-		Tomcat8embed tomcat8embed = new Tomcat8embed();
-		tomcat8embed.start();
+		Tomcat8 tomcat8 = new Tomcat8();
+		tomcat8.start();
 	}
 }
