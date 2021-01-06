@@ -14,8 +14,7 @@
 		<module>spring-base</module>
 		<module>spring-api</module>
 		<module>shop-main</module>
-		<module>tomcat-embed-springmvc</module>
-		<module>jetty-embed-springmvc</module>
+		<module>springmvc-embed</module>
 		<module>springboot-learn</module>
 	</modules>
 </project>
