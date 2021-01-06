@@ -10,7 +10,7 @@
 | spring-learn         | spring 5.3.1源码    | ProxyGenerator字节码重写                                     |
 | spring-mybatis-learn | spring+mybatis整合  |                                                              |
 | springboot-learn     | spring 2.3.0源码    | WebMvcConfigurer                                             |
-| springmvc-tomcat8    | springMvc 5.3.1源码 | 内嵌Tomcat8，servlet3.0规范扩展SPI,自定义参数解析            |
+| springmvc-embed    | springMvc 5.3.1源码 | 内嵌Tomcat8，Jetty9，servlet3.0规范扩展SPI,自定义参数解析            |
 |                      |                     |                                                              |
 |                      |                     |                                                              |
 |                      |                     |                                                              |
