@@ -196,7 +196,7 @@ var Main = {
         data:{
             dialogVisible:false,
             dialogImageUrl:'',
-            fileList: [{name: '1100.jpg', url: 'https://xuzhihao-shop.oss-cn-beijing.aliyuncs.com/shop/images/20210105/1100.jpg'}]
+            fileList: [{name: '1100.jpg', url: 'https://xuzhihao-shop.oss-cn-beijing.aliyuncs.com/shop/1100.jpg'}]
         },
         methods:{
         	handlePreview(file){
