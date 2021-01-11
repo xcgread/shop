@@ -8,7 +8,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import java.util.concurrent.TimeUnit;
 
-import com.xuzhihao.shop.common.enmu.LimitType;
+import com.xuzhihao.shop.common.api.LimitType;
 
 /**
  * @author Limit (Redis实现)

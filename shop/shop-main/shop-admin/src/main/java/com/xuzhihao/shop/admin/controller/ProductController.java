@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.xuzhihao.shop.common.annotation.ApiLogs;
 import com.xuzhihao.shop.common.annotation.Limit;
 import com.xuzhihao.shop.common.api.CommonResult;
-import com.xuzhihao.shop.common.enmu.LimitType;
+import com.xuzhihao.shop.common.api.LimitType;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
