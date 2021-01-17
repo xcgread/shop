@@ -14,9 +14,9 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
 import com.xuzhihao.shop.common.api.CommonResult;
+import com.xuzhihao.shop.common.api.ResultCode;
 import com.xuzhihao.shop.common.constant.AuthConstant;
 import com.xuzhihao.shop.common.domain.UserDto;
-import com.xuzhihao.shop.common.enmu.ResultCode;
 import com.xuzhihao.shop.common.exception.Asserts;
 import com.xuzhihao.shop.mbg.mapper.UmsMemberMapper;
 import com.xuzhihao.shop.mbg.model.UmsMember;

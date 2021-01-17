@@ -19,8 +19,8 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.xuzhihao.shop.common.annotation.Limit;
 import com.xuzhihao.shop.common.api.CommonResult;
+import com.xuzhihao.shop.common.api.LimitType;
 import com.xuzhihao.shop.common.constant.AuthConstant;
-import com.xuzhihao.shop.common.enmu.LimitType;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.SecureUtil;
