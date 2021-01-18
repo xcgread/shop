@@ -37,7 +37,7 @@ public class IndexController {
 	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	@RequestMapping("/json4")
+	@RequestMapping("/json2")
 	@ResponseBody // user 对象 Map
 	public Object test(String name, HttpServletRequest request, HttpServletResponse response, @UserParam Map map) {
 		map.put("name", request.getParameter("name"));
