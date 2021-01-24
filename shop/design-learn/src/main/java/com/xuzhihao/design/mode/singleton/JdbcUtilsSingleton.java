@@ -7,8 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * 使用单例模式创建JDBC工具类
- * 构造器私有化，自行创建实例，自行向系统提供这个实例
+ * 使用单例模式创建JDBC工具类 构造器私有化，自行创建实例，自行向系统提供这个实例
  */
 //饿汉式：直接创建对象 不存在线程安全问题
 //	 直接实例化
@@ -20,16 +19,18 @@ import java.sql.Statement;
 //	静态内部类 适用于多线程
 public final class JdbcUtilsSingleton {
 
+	private static ThreadLocal<Connection> tl = new ThreadLocal<>();
+
 	private static final String driver = "com.mysql.cj.jdbc.Driver";// mysql驱动
 //	private static final String driver = "oracle.jdbc.driver.OracleDriver"; // oracle驱动
 //	private static final String driver = "org.postgresql.Driver"; // postgresql驱动
 //	private static final String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"; // sqlserver驱动
-	
+
 	private static final String url = "jdbc:mysql://debug-registry:3306/mall";// mysql地址
 //	private static final String url = "jdbc:oracle:thin:@172.17.17.37:1521:ORCL"; // oracle地址
 //	private static final String url = "jdbc:postgresql://172.17.17.38:5432/VJSP10003182"; // postgresql地址
 //	private static final String url = "jdbc:sqlserver://172.17.17.172:1433; DatabaseName=maptest"; // sqlserver地址
-	
+
 	private String username = "root";
 	private String password = "root";
 
@@ -69,34 +70,41 @@ public final class JdbcUtilsSingleton {
 	 * @return
 	 * @throws SQLException
 	 */
-	public Connection getConnection() throws SQLException {
-		return DriverManager.getConnection(url, username, password);
+	public synchronized Connection getConnection() throws SQLException {
+		Connection conn = tl.get();
+		// 如果容器中没有连接，就从连接池获取一个连接存到ThreadLocal中
+		if (conn == null) {
+			conn = DriverManager.getConnection(url, username, password);
+			tl.set(conn);
+		}
+		return conn;
 	}
 
 	/**
 	 * 释放资源
 	 */
-	public void free(ResultSet rs, Statement st, Connection conn) {
-		// 规范的关系连接的方式
-		try {
-			if (rs != null) {
-				rs.close();
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} finally {
+	public static void free(AutoCloseable... ios) {
+		for (AutoCloseable io : ios) {
 			try {
-				if (st != null) {
-					st.close();
+				if (io != null) {
+					io.close();
 				}
-			} catch (SQLException e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 			} finally {
-				if (conn != null) {
-					try {
-						conn.close();
-					} catch (SQLException e) {
-						e.printStackTrace();
+				try {
+					if (io != null) {
+						io.close();
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				} finally {
+					if (io != null) {
+						try {
+							io.close();
+						} catch (Exception e) {
+							e.printStackTrace();
+						}
 					}
 				}
 			}
