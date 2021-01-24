@@ -7,13 +7,11 @@
 <script type="text/javascript" src="static/js/vue.js"></script>
 </head>
 <body>
-	<h1>
-		欢迎你：
-		<div th:text="${name}"></div>
-	</h1>
+	欢迎客服：
+	<div th:text="${name}"></div>
 	<div id="app">
-		<input type="text" v-model:value="message"> 
-		<input type="text" :value="message2"> {{ message }}
+		<input type="text" v-model:value="message"> <input type="text"
+			:value="message2"> {{ message }}
 	</div>
 	<script>
 		var app = new Vue({
