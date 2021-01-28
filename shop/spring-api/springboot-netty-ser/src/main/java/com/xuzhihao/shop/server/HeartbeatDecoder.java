@@ -2,10 +2,13 @@ package com.xuzhihao.shop.server;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
 
+@Component
 public class HeartbeatDecoder extends ByteToMessageDecoder {
 	@Override
 	protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
@@ -13,7 +16,7 @@ public class HeartbeatDecoder extends ByteToMessageDecoder {
 		byte[] bytes = new byte[in.readableBytes()];
 		in.readBytes(bytes);
 		String content = new String(bytes);
-		CustomProtocol customProtocol = new CustomProtocol(id, content);
-		out.add(customProtocol);
+		Protocol protocol = new Protocol(id, content);
+		out.add(protocol);
 	}
 }
