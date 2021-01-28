@@ -42,6 +42,7 @@ public class HeartBeatServer {
         if (future.isSuccess()) {
             log.info("NettySer启动成功");
         }
+        future.channel().closeFuture().sync();
     }
     /**
      * 销毁
