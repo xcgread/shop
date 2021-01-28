@@ -3,6 +3,7 @@ package com.xuzhihao.shop.client;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -20,6 +21,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Client {
 	private EventLoopGroup work = new NioEventLoopGroup();
+	@Autowired
+	private HeartbeatEncode heartbeatEncode;
+	@Autowired
+	private ClientHandle clientHandle;
 	@Value("${netty.server.port}")
 	private int nettyPort;
 	@Value("${netty.server.host}")
@@ -35,8 +40,8 @@ public class Client {
 						@Override
 						protected void initChannel(Channel ch) throws Exception {
 							ch.pipeline().addLast(new IdleStateHandler(0, 1, 0))// 10 秒没发送消息触发
-									.addLast(new HeartbeatEncode())// 自定义解码器
-									.addLast(new ClientHandle());// 处理类
+									.addLast(heartbeatEncode)// 自定义解码器
+									.addLast(clientHandle);// 处理类
 						}
 					});
 			ChannelFuture connect = bootstrap.connect(host, nettyPort).sync();
