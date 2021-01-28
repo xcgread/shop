@@ -1,5 +1,6 @@
 package com.xuzhihao.shop.client;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import io.netty.buffer.ByteBuf;
@@ -15,7 +16,9 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 public class ClientHandle extends SimpleChannelInboundHandler<ByteBuf> {
 
-
+	@Autowired
+	private Protocol protocol;
+	
 	@Override
 	public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
 		if (evt instanceof IdleStateEvent) {
@@ -23,8 +26,7 @@ public class ClientHandle extends SimpleChannelInboundHandler<ByteBuf> {
 			if (idleStateEvent.state() == IdleState.WRITER_IDLE) {
 				log.info("客户端已经 10 秒没有发送信息！");
 				// 向服务端发送消息
-				Protocol heartBeat = SpringBeanFactory.getBean(Protocol.class);
-				ctx.writeAndFlush(heartBeat).addListener(ChannelFutureListener.CLOSE_ON_FAILURE);
+				ctx.writeAndFlush(protocol).addListener(ChannelFutureListener.CLOSE_ON_FAILURE);
 			}
 		}
 		super.userEventTriggered(ctx, evt);
