@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-netty-chat
+Implementation-Version: 2.3.0.RELEASE
+Build-Jdk-Spec: 1.8
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
