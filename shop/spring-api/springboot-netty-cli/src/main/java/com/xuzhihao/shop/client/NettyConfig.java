@@ -11,6 +11,6 @@ public class NettyConfig {
 
 	@Bean
 	public Protocol protocol() {
-		return new Protocol(id, "ping");
+		return new Protocol(id, System.currentTimeMillis() + "");
 	}
 }

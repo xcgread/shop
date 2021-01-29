@@ -2,7 +2,6 @@ package com.xuzhihao.shop.server;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-import javax.annotation.Resource;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -23,10 +22,6 @@ import lombok.extern.slf4j.Slf4j;
 public class Server {
 	private EventLoopGroup boss = new NioEventLoopGroup();
 	private EventLoopGroup work = new NioEventLoopGroup();
-	@Resource
-	private HeartbeatDecoder heartbeatDecoder;
-	@Resource
-	private ServerHandler serverHandler;
 	@Value("${netty.server.port}")
 	private int port;
 
@@ -48,14 +43,14 @@ public class Server {
 					.childHandler(new ChannelInitializer<Channel>() {
 						@Override
 						protected void initChannel(Channel ch) throws Exception {
-							ch.pipeline().addLast(new IdleStateHandler(5, 0, 0))// 设置心跳
-									.addLast(heartbeatDecoder)// 自定义解码器
-									.addLast(serverHandler);// 处理器
+							ch.pipeline().addLast(new IdleStateHandler(10, 0, 0))// 设置心跳
+									.addLast(new HeartbeatDecoder())// 自定义解码器
+									.addLast(new ServerHandler());// 处理器
 						}
 					});
 			ChannelFuture future = bootstrap.bind(port).sync();
 			if (future.isSuccess()) {
-				log.info("Server启动成功");
+				log.info("服务器{}已启动", port);
 			}
 			future.channel().closeFuture().sync();
 		} catch (InterruptedException e) {

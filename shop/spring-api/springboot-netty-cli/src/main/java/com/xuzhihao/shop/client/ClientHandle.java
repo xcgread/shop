@@ -1,8 +1,5 @@
 package com.xuzhihao.shop.client;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
@@ -13,19 +10,17 @@ import io.netty.util.CharsetUtil;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Component
 public class ClientHandle extends SimpleChannelInboundHandler<ByteBuf> {
-
-	@Autowired
-	private Protocol protocol;
-	
+	// HEART_BEAT可以采用注册方式从容器中获取
+	// 需要注意当主线程启动后阻塞导致无法通过ApplicationContextAware方式获取上下文
 	@Override
 	public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
 		if (evt instanceof IdleStateEvent) {
 			IdleStateEvent idleStateEvent = (IdleStateEvent) evt;
 			if (idleStateEvent.state() == IdleState.WRITER_IDLE) {
-				log.info("客户端已经 10 秒没有发送信息！");
 				// 向服务端发送消息
+				Protocol protocol = SpringBeanFactory.getBean(Protocol.class);
+				log.info("每5秒向服务器{},{}", ctx.channel().remoteAddress(), protocol);
 				ctx.writeAndFlush(protocol).addListener(ChannelFutureListener.CLOSE_ON_FAILURE);
 			}
 		}
@@ -33,9 +28,14 @@ public class ClientHandle extends SimpleChannelInboundHandler<ByteBuf> {
 	}
 
 	@Override
-	protected void channelRead0(ChannelHandlerContext channelHandlerContext, ByteBuf in) throws Exception {
+	protected void channelRead0(ChannelHandlerContext ctx, ByteBuf in) throws Exception {
 		// 从服务端收到消息时被调用
-		log.info("客户端收到消息={}", in.toString(CharsetUtil.UTF_8));
+		log.info("收到服务器={},{}", ctx.channel().remoteAddress(), in.toString(CharsetUtil.UTF_8));
+	}
+
+	@Override
+	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+		super.exceptionCaught(ctx, cause);
 	}
 
 }

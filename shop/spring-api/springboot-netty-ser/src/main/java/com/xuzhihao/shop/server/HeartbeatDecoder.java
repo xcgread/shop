@@ -2,13 +2,10 @@ package com.xuzhihao.shop.server;
 
 import java.util.List;
 
-import org.springframework.stereotype.Component;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
 
-@Component
 public class HeartbeatDecoder extends ByteToMessageDecoder {
 	@Override
 	protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {

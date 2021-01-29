@@ -4,5 +4,5 @@ channel:
    id: 1327
 netty:
    server:
-      host: 192.168.3.97
+      host: 172.17.17.165
       port: 9873
