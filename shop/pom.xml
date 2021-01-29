@@ -16,5 +16,6 @@
 		<module>shop-main</module>
 		<module>springmvc-embed</module>
 		<module>springboot-learn</module>
+		<module>netty-learn</module>
 	</modules>
 </project>
