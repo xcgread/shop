@@ -28,6 +28,7 @@
 		<module>springboot-dubbo-provider</module>
 		<module>springboot-netty-cli</module>
 		<module>springboot-netty-ser</module>
+		<module>springboot-netty-chat</module>
 		<module>springcloud-dubbo-consumer</module>
 		<module>springcloud-dubbo-provider</module>
 
