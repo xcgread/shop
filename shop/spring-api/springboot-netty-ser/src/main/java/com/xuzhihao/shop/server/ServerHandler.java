@@ -15,9 +15,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ServerHandler extends SimpleChannelInboundHandler<Protocol> {
 
-	private static final ByteBuf HEART_BEAT = Unpooled.unreleasableBuffer(Unpooled
-			.copiedBuffer(new Protocol(1234567890L, "已被下线").toString(), CharsetUtil.UTF_8));
-
+	private static final ByteBuf HEART_BEAT = Unpooled
+			.unreleasableBuffer(Unpooled.copiedBuffer(new Protocol(1234567890L, "已被下线").toString(), CharsetUtil.UTF_8));
 
 	@Override
 	public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
@@ -36,7 +35,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<Protocol> {
 			} else if (event.state() == IdleState.WRITER_IDLE) {
 
 			} else if (event.state() == IdleState.ALL_IDLE) {
-				
+
 			}
 
 			super.userEventTriggered(ctx, evt);
@@ -75,6 +74,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<Protocol> {
 	 */
 	@Override
 	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-		super.exceptionCaught(ctx, cause);
+		cause.printStackTrace();
+		ctx.close();
 	}
 }
