@@ -1,4 +1,4 @@
-package com.xuzhihao.Memcached;
+package com.xuzhihao.memcached;
 
 /**
  * Created by dimi on 2018/12/12.

@@ -1,4 +1,4 @@
-package com.xuzhihao.Memcached;
+package com.xuzhihao.memcached;
 
 import java.util.Random;
 

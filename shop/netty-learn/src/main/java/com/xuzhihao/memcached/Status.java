@@ -1,4 +1,4 @@
-package com.xuzhihao.Memcached;
+package com.xuzhihao.memcached;
 
 /**
  * memcache protocol response status 2018/12/12.

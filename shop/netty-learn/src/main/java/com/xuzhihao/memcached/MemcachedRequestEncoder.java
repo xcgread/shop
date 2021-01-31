@@ -1,4 +1,4 @@
-package com.xuzhihao.Memcached;
+package com.xuzhihao.memcached;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
