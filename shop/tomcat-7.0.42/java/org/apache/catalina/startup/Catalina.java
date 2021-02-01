@@ -540,6 +540,7 @@ public class Catalina {
      */
     public void load() {
 
+    	System.out.println("**********=====>Catalina init....");
         long t1 = System.nanoTime();
 
         initDirs();
@@ -550,6 +551,7 @@ public class Catalina {
 
         // Create and execute our Digester
         Digester digester = createStartDigester();
+        System.out.println("**********=====>server.xml解析完成");
 
         InputSource inputSource = null;
         InputStream inputStream = null;

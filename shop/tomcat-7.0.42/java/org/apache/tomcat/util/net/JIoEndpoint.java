@@ -186,7 +186,7 @@ public class JIoEndpoint extends AbstractEndpoint {
         public void run() {
 
             int errorDelay = 0;
-
+            System.out.println("绑定端口："+getPort()+",接收请求");
             // Loop until we receive a shutdown command
             while (running) {
 
@@ -213,6 +213,7 @@ public class JIoEndpoint extends AbstractEndpoint {
                     try {
                         // Accept the next incoming connection from the server
                         // socket
+                    	System.out.println("-----开始接收请求-----");
                         socket = serverSocketFactory.acceptSocket(serverSocket);
                     } catch (IOException ioe) {
                         countDownConnection();
@@ -413,7 +414,7 @@ public class JIoEndpoint extends AbstractEndpoint {
 
     @Override
     public void startInternal() throws Exception {
-
+    	System.out.println("**********=====>Endpoint start....");
         if (!running) {
             running = true;
             paused = false;

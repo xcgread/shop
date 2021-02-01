@@ -800,7 +800,7 @@ public final class StandardServer extends LifecycleMBeanBase implements Server {
     protected void initInternal() throws LifecycleException {
         
         super.initInternal();
-
+        System.out.println("**********=====>Server init....");
         // Register global String cache
         // Note although the cache is global, if there are multiple Servers
         // present in the JVM (may happen when embedding) then the same cache

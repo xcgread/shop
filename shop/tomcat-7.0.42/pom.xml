@@ -13,17 +13,17 @@
     <build>
         <finalName>tomcat-7.0.42</finalName>
         <sourceDirectory>java</sourceDirectory>
-        <testSourceDirectory>test</testSourceDirectory>
+        <!-- <testSourceDirectory>test</testSourceDirectory> -->
         <resources>
             <resource>
                 <directory>java</directory>
             </resource>
         </resources>
-        <testResources>
+        <!-- <testResources>
             <testResource>
                 <directory>test</directory>
             </testResource>
-        </testResources>
+        </testResources> -->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
