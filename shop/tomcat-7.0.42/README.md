@@ -1,4 +1,3 @@
-将conf和webapps复制到catalina-home文件夹下
 
 VM options参数：
 -Dcatalina.home=catalina-home 
