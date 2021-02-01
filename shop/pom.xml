@@ -7,15 +7,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
-		<module>spring-mybatis-learn</module>
-		<module>spring-learn</module>
-		<module>mybatis-learn</module>
+		<module>spring5.3.1-mybatis3.4.6</module>
+		<module>spring-5.3.1</module>
+		<module>mybatis-3.4.6</module>
 		<module>design-learn</module>
 		<module>spring-base</module>
 		<module>spring-api</module>
 		<module>shop-main</module>
-		<module>springmvc-embed</module>
-		<module>springboot-learn</module>
-		<module>netty-learn</module>
+		<module>springmvc-5.3.1-embed</module>
+		<module>springboot-2.3.0</module>
+		<module>netty-4.1.49</module>
 	</modules>
 </project>
