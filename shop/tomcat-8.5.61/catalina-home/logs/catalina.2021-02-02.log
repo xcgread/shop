@@ -1,0 +1,1019 @@
+02-Feb-2021 20:56:26.239 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 20:56:26.247 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 20:56:26.247 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 20:56:26.247 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 20:56:27.412 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 20:56:27.412 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 20:56:27.412 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 20:56:27.412 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 20:56:27.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 20:56:27.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 20:56:27.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 20:56:27.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\lib\idea_rt.jar=51768:D:\java\ideaIU-2020.3.2\bin
+02-Feb-2021 20:56:27.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 20:56:27.414 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 20:56:27.616 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 20:56:27.665 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 20:56:27.690 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1354 ms
+02-Feb-2021 20:56:27.884 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 20:56:27.884 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 20:56:27.913 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 20:56:28.719 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 20:56:28.920 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[191]毫秒。
+02-Feb-2021 20:56:29.007 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[1,094]毫秒内完成
+02-Feb-2021 20:56:29.008 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 20:56:29.164 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 20:56:29.264 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[256]毫秒内完成
+02-Feb-2021 20:56:29.264 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 20:56:29.340 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 20:56:29.343 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[78]毫秒内完成
+02-Feb-2021 20:56:29.343 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 20:56:29.416 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 20:56:29.417 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[74]毫秒内完成
+02-Feb-2021 20:56:29.417 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 20:56:29.482 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 20:56:29.483 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[66]毫秒内完成
+02-Feb-2021 20:56:29.483 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 20:56:38.007 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 20:56:38.010 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[8,527]毫秒内完成
+02-Feb-2021 20:56:38.012 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 20:56:38.026 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 10336 ms
+02-Feb-2021 20:57:11.610 信息 [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader 收到包含无效cookie的cookie头[1603032214; _gid=GA1.1.1030812996.1612189440]。将忽略该cookie。␣注意：此错误的进一步出现将记录在调试级别。
+02-Feb-2021 21:09:16.272 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:09:16.275 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:09:16.275 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:09:16.275 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:09:16.610 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:09:16.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52095,suspend=y,server=n
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:09:16.612 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:09:16.701 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:09:16.760 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:09:16.768 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 462 ms
+02-Feb-2021 21:09:16.793 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:09:16.793 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:09:16.820 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:09:17.108 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:09:17.313 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[200]毫秒。
+02-Feb-2021 21:09:17.332 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[512]毫秒内完成
+02-Feb-2021 21:09:17.332 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:09:17.477 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:09:17.500 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[168]毫秒内完成
+02-Feb-2021 21:09:17.500 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:09:17.580 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:09:17.582 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[82]毫秒内完成
+02-Feb-2021 21:09:17.582 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:09:17.665 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:09:17.666 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[84]毫秒内完成
+02-Feb-2021 21:09:17.666 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:09:17.730 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:09:17.731 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[65]毫秒内完成
+02-Feb-2021 21:09:17.731 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:09:19.027 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:09:19.031 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,300]毫秒内完成
+02-Feb-2021 21:09:19.033 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:09:19.041 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2272 ms
+02-Feb-2021 21:09:35.995 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:09:36.165 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:09:36.181 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:09:36.183 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:10:06.771 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:10:06.777 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:10:06.778 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:10:06.778 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:10:07.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:10:07.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:10:07.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:10:07.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52117,suspend=y,server=n
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:10:07.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:10:07.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:10:07.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:10:07.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:10:07.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:10:07.112 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:10:07.200 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:10:07.259 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:10:07.272 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 480 ms
+02-Feb-2021 21:10:07.298 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:10:07.298 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:10:07.327 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:10:07.614 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:10:07.811 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[191]毫秒。
+02-Feb-2021 21:10:07.830 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[503]毫秒内完成
+02-Feb-2021 21:10:07.830 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:10:07.970 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:10:07.991 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[161]毫秒内完成
+02-Feb-2021 21:10:07.991 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:10:08.071 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:10:08.074 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[83]毫秒内完成
+02-Feb-2021 21:10:08.074 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:10:08.155 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:10:08.156 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[82]毫秒内完成
+02-Feb-2021 21:10:08.156 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:10:08.220 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:10:08.221 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[65]毫秒内完成
+02-Feb-2021 21:10:08.221 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:10:09.501 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:10:09.505 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,284]毫秒内完成
+02-Feb-2021 21:10:09.507 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:10:09.514 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2242 ms
+02-Feb-2021 21:10:51.643 信息 [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader 收到包含无效cookie的cookie头[1603032214; _gid=GA1.1.1030812996.1612189440]。将忽略该cookie。␣注意：此错误的进一步出现将记录在调试级别。
+02-Feb-2021 21:13:21.477 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:13:21.651 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:13:21.667 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:13:21.669 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:13:41.280 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:13:41.283 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:13:41.283 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:13:41.283 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:13:41.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:13:41.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:13:41.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:13:41.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:13:41.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:13:41.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:13:41.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:13:41.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:13:41.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:13:41.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:13:41.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:13:41.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52170,suspend=y,server=n
+02-Feb-2021 21:13:41.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:13:41.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:13:41.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:13:41.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:13:41.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:13:41.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:13:41.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:13:41.628 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:13:41.628 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:14:23.202 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:14:23.256 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:14:23.266 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 41970 ms
+02-Feb-2021 21:14:23.294 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:14:23.295 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:14:23.320 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:14:23.599 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:14:23.798 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[193]毫秒。
+02-Feb-2021 21:14:23.814 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[494]毫秒内完成
+02-Feb-2021 21:14:23.814 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:14:23.951 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:14:23.972 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[158]毫秒内完成
+02-Feb-2021 21:14:23.972 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:14:24.052 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:14:24.055 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[83]毫秒内完成
+02-Feb-2021 21:14:24.055 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:14:24.139 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:14:24.140 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[85]毫秒内完成
+02-Feb-2021 21:14:24.140 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:14:24.205 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:14:24.206 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[66]毫秒内完成
+02-Feb-2021 21:14:24.206 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:14:25.302 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:14:25.307 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,101]毫秒内完成
+02-Feb-2021 21:14:25.311 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:14:25.319 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2052 ms
+02-Feb-2021 21:17:18.271 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:17:18.461 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:17:18.488 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:17:18.491 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:17:21.516 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:17:21.519 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:17:21.519 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:17:21.519 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:17:21.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:17:21.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:17:21.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:17:21.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:17:21.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:17:21.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:17:21.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:17:21.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52218,suspend=y,server=n
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:17:21.833 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:18:30.291 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:18:30.424 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:18:34.410 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 72879 ms
+02-Feb-2021 21:18:34.438 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:18:34.438 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:18:34.461 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:18:34.746 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:18:34.942 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[192]毫秒。
+02-Feb-2021 21:18:34.959 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[498]毫秒内完成
+02-Feb-2021 21:18:34.959 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:18:35.101 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:18:35.122 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[162]毫秒内完成
+02-Feb-2021 21:18:35.122 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:18:35.202 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:18:35.204 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[82]毫秒内完成
+02-Feb-2021 21:18:35.204 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:18:35.285 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:18:35.287 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[83]毫秒内完成
+02-Feb-2021 21:18:35.287 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:18:35.350 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:18:35.351 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[64]毫秒内完成
+02-Feb-2021 21:18:35.352 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:18:36.432 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:18:36.436 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,083]毫秒内完成
+02-Feb-2021 21:18:36.439 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:18:36.446 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2036 ms
+02-Feb-2021 21:24:05.465 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:24:05.645 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:24:05.671 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:24:05.674 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:24:08.747 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:24:08.751 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:24:08.751 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:24:08.751 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:24:09.114 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:24:09.114 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:24:09.114 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52330,suspend=y,server=n
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:24:09.115 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:24:09.116 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:24:09.116 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:24:09.116 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:24:09.116 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:24:09.116 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:24:09.116 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:28:15.142 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:28:18.535 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:28:18.539 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:28:18.539 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:28:18.539 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:28:18.900 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:28:18.900 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:28:18.900 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:28:18.900 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:28:18.900 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:28:18.900 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52385,suspend=y,server=n
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:28:18.901 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:28:18.902 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:28:22.957 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:30:33.750 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:30:33.754 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:30:33.754 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:30:33.754 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:30:34.091 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52412,suspend=y,server=n
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:30:34.092 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:30:34.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:30:34.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:30:34.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:30:34.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:30:34.093 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:30:34.093 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:30:34.181 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:30:42.318 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:30:42.327 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 8559 ms
+02-Feb-2021 21:30:42.355 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:30:42.355 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:30:42.380 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:30:42.653 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:30:42.847 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[190]毫秒。
+02-Feb-2021 21:30:42.862 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[482]毫秒内完成
+02-Feb-2021 21:30:42.862 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:30:42.997 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:30:43.017 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[155]毫秒内完成
+02-Feb-2021 21:30:43.018 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:30:43.094 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:30:43.096 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[78]毫秒内完成
+02-Feb-2021 21:30:43.097 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:30:43.176 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:30:43.178 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[81]毫秒内完成
+02-Feb-2021 21:30:43.178 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:30:43.241 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:30:43.242 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[64]毫秒内完成
+02-Feb-2021 21:30:43.242 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:30:44.463 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:30:44.468 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,226]毫秒内完成
+02-Feb-2021 21:30:44.471 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:30:44.479 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2152 ms
+02-Feb-2021 21:31:32.364 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:31:32.535 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:31:32.561 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:31:32.563 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:37:21.108 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:37:21.111 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:37:21.111 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:37:21.111 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:37:21.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:37:21.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:37:21.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52539,suspend=y,server=n
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:37:21.483 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:37:21.572 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:37:44.259 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:37:44.267 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 23128 ms
+02-Feb-2021 21:37:44.295 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:37:44.295 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:37:44.319 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:37:44.592 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:44.789 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[192]毫秒。
+02-Feb-2021 21:37:44.804 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[485]毫秒内完成
+02-Feb-2021 21:37:44.804 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:37:44.943 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:44.964 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[160]毫秒内完成
+02-Feb-2021 21:37:44.964 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:37:45.041 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:45.044 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[80]毫秒内完成
+02-Feb-2021 21:37:45.044 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:37:45.123 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:45.124 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[80]毫秒内完成
+02-Feb-2021 21:37:45.124 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:37:45.187 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:45.188 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[64]毫秒内完成
+02-Feb-2021 21:37:45.188 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:37:49.411 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:37:49.415 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:37:49.415 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:37:49.415 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:37:49.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:37:49.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:37:49.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:37:49.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:37:49.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:37:49.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:37:49.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:37:49.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:37:49.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:37:49.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:37:49.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:37:49.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52551,suspend=y,server=n
+02-Feb-2021 21:37:49.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:37:49.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:37:49.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:37:49.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:37:49.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:37:49.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:37:49.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:37:49.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:37:49.736 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:37:49.823 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:37:51.921 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:37:51.929 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2502 ms
+02-Feb-2021 21:37:51.953 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:37:51.953 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:37:51.978 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:37:52.256 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:52.452 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[191]毫秒。
+02-Feb-2021 21:37:52.467 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[489]毫秒内完成
+02-Feb-2021 21:37:52.467 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:37:52.603 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:52.623 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[156]毫秒内完成
+02-Feb-2021 21:37:52.623 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:37:52.700 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:52.702 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[79]毫秒内完成
+02-Feb-2021 21:37:52.702 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:37:52.781 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:52.783 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[81]毫秒内完成
+02-Feb-2021 21:37:52.783 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:37:52.846 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:52.847 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[64]毫秒内完成
+02-Feb-2021 21:37:52.847 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:37:54.062 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:37:54.067 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,220]毫秒内完成
+02-Feb-2021 21:37:54.070 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:37:54.078 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2148 ms
+02-Feb-2021 21:38:13.549 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:38:13.723 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:38:13.740 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:38:13.743 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:38:15.927 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:15.930 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:15.931 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:15.931 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:16.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:38:16.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:38:16.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:38:16.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:38:16.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52565,suspend=y,server=n
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:38:16.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:38:16.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:38:16.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:38:16.232 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:38:16.319 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:38:16.381 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:38:16.391 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 448 ms
+02-Feb-2021 21:38:16.419 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:38:16.419 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:38:16.454 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:38:16.740 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:16.935 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[190]毫秒。
+02-Feb-2021 21:38:16.951 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[497]毫秒内完成
+02-Feb-2021 21:38:16.951 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:38:17.092 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:17.113 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[161]毫秒内完成
+02-Feb-2021 21:38:17.113 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:38:17.192 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:17.194 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[81]毫秒内完成
+02-Feb-2021 21:38:17.194 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:38:17.274 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:17.276 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[82]毫秒内完成
+02-Feb-2021 21:38:17.276 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:38:17.338 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:17.339 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[63]毫秒内完成
+02-Feb-2021 21:38:17.340 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:38:18.601 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:18.605 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,266]毫秒内完成
+02-Feb-2021 21:38:18.607 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:38:18.614 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2223 ms
+02-Feb-2021 21:38:25.446 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:38:25.616 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:38:25.632 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:38:25.633 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:38:27.575 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:27.579 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:27.579 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:27.579 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:27.883 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:38:27.883 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:38:27.883 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:38:27.883 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52579,suspend=y,server=n
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:38:27.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:38:27.885 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:38:27.885 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:38:27.885 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:38:36.594 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:38:36.647 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:38:36.656 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 9063 ms
+02-Feb-2021 21:38:36.683 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:38:36.683 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:38:36.709 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:38:36.987 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:37.183 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[191]毫秒。
+02-Feb-2021 21:38:37.199 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[490]毫秒内完成
+02-Feb-2021 21:38:37.199 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:38:37.341 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:37.361 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[162]毫秒内完成
+02-Feb-2021 21:38:37.362 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:38:37.439 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:37.441 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[80]毫秒内完成
+02-Feb-2021 21:38:37.442 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:38:37.518 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:37.519 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[77]毫秒内完成
+02-Feb-2021 21:38:37.519 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:38:37.583 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:37.584 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[65]毫秒内完成
+02-Feb-2021 21:38:37.584 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:38:38.679 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:38.683 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,099]毫秒内完成
+02-Feb-2021 21:38:38.687 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:38:38.694 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2038 ms
+02-Feb-2021 21:38:44.618 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:38:44.790 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:38:44.807 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:38:44.810 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:38:46.610 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:46.613 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:46.613 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:46.614 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:46.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:38:46.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:38:46.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:38:46.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52597,suspend=y,server=n
+02-Feb-2021 21:38:46.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:38:46.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:38:46.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:38:46.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:38:46.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:38:46.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:38:46.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:38:46.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:38:46.925 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:38:47.020 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:38:47.077 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:38:47.086 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 460 ms
+02-Feb-2021 21:38:47.115 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:38:47.115 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:38:47.144 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:38:47.441 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:47.637 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[191]毫秒。
+02-Feb-2021 21:38:47.652 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[508]毫秒内完成
+02-Feb-2021 21:38:47.653 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:38:47.793 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:47.813 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[160]毫秒内完成
+02-Feb-2021 21:38:47.813 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:38:47.890 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:47.892 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[79]毫秒内完成
+02-Feb-2021 21:38:47.892 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:38:47.971 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:47.972 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[80]毫秒内完成
+02-Feb-2021 21:38:47.972 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:38:48.035 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:48.036 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[64]毫秒内完成
+02-Feb-2021 21:38:48.036 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:38:49.320 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:49.324 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,288]毫秒内完成
+02-Feb-2021 21:38:52.887 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:38:52.898 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5812 ms
+02-Feb-2021 21:38:54.348 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:38:54.521 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:38:54.535 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:38:54.538 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:38:56.762 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:56.768 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:56.769 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:56.769 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:38:57.071 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:38:57.072 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52609,suspend=y,server=n
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:38:57.073 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:38:57.159 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:38:57.212 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:38:57.222 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 439 ms
+02-Feb-2021 21:38:57.249 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:38:57.249 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:38:57.275 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:38:57.567 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:57.763 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[191]毫秒。
+02-Feb-2021 21:38:57.779 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[504]毫秒内完成
+02-Feb-2021 21:38:57.779 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:38:57.921 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:57.941 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[162]毫秒内完成
+02-Feb-2021 21:38:57.941 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:38:58.025 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:58.028 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[87]毫秒内完成
+02-Feb-2021 21:38:58.029 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:38:58.107 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:58.109 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[80]毫秒内完成
+02-Feb-2021 21:38:58.109 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:38:58.173 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:58.174 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[65]毫秒内完成
+02-Feb-2021 21:38:58.174 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:38:59.458 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:38:59.462 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,288]毫秒内完成
+02-Feb-2021 21:38:59.464 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:38:59.471 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2249 ms
+02-Feb-2021 21:43:12.731 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:43:12.903 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:43:12.920 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:43:12.922 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:43:19.831 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:43:19.834 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:43:19.835 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:43:19.835 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:43:20.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:43:20.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:43:20.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:43:20.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:43:20.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:43:20.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:43:20.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:52813,suspend=y,server=n
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 21:43:20.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:43:20.149 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:43:20.235 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:43:20.295 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:43:20.304 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 457 ms
+02-Feb-2021 21:43:20.334 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:43:20.334 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:43:20.363 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:43:20.647 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:43:20.847 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[195]毫秒。
+02-Feb-2021 21:43:20.863 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[500]毫秒内完成
+02-Feb-2021 21:43:20.863 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:43:21.018 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:43:21.039 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[176]毫秒内完成
+02-Feb-2021 21:43:21.039 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:43:21.118 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:43:21.121 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[81]毫秒内完成
+02-Feb-2021 21:43:21.121 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:43:21.203 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:43:21.204 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[83]毫秒内完成
+02-Feb-2021 21:43:21.205 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:43:21.268 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:43:21.268 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[64]毫秒内完成
+02-Feb-2021 21:43:21.268 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:43:22.539 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:43:22.543 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,274]毫秒内完成
+02-Feb-2021 21:43:22.544 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:43:22.551 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2246 ms
+02-Feb-2021 21:50:50.820 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 21:50:50.991 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 21:50:51.008 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 21:50:51.010 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:50:54.405 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:50:54.408 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:50:54.408 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:50:54.408 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:50:54.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:50:54.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:50:54.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:50:54.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:50:54.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:50:54.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:50:54.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\lib\idea_rt.jar=52880:D:\java\ideaIU-2020.3.2\bin
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:50:54.745 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:50:54.823 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:50:54.869 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:50:54.877 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 458 ms
+02-Feb-2021 21:50:54.897 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:50:54.897 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:50:54.903 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:50:55.194 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:50:55.395 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[197]毫秒。
+02-Feb-2021 21:50:55.409 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[506]毫秒内完成
+02-Feb-2021 21:50:55.409 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:50:55.538 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:50:55.556 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[147]毫秒内完成
+02-Feb-2021 21:50:55.556 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:50:55.635 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:50:55.638 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[81]毫秒内完成
+02-Feb-2021 21:50:55.638 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:50:55.713 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:50:55.715 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[77]毫秒内完成
+02-Feb-2021 21:50:55.715 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:50:55.785 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:50:55.786 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[71]毫秒内完成
+02-Feb-2021 21:50:55.786 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:50:57.021 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:50:57.024 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,238]毫秒内完成
+02-Feb-2021 21:50:57.026 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:50:57.031 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2154 ms
+02-Feb-2021 21:53:15.345 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:53:15.348 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:53:15.348 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:53:15.348 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:53:15.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:53:15.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:53:15.643 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:53:15.643 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:53:15.643 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:53:15.643 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\lib\idea_rt.jar=52916:D:\java\ideaIU-2020.3.2\bin
+02-Feb-2021 21:53:15.643 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:53:15.643 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:53:15.720 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:53:15.764 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:53:15.771 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 414 ms
+02-Feb-2021 21:53:15.791 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:53:15.791 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:53:15.797 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:53:16.063 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:16.260 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[194]毫秒。
+02-Feb-2021 21:53:16.274 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[476]毫秒内完成
+02-Feb-2021 21:53:16.274 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:53:16.411 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:16.430 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[156]毫秒内完成
+02-Feb-2021 21:53:16.430 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:53:16.510 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:16.512 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[82]毫秒内完成
+02-Feb-2021 21:53:16.512 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:53:16.586 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:16.587 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[75]毫秒内完成
+02-Feb-2021 21:53:16.587 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:53:16.654 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:16.655 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[68]毫秒内完成
+02-Feb-2021 21:53:16.655 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:53:17.892 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:17.895 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,240]毫秒内完成
+02-Feb-2021 21:53:17.896 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:53:17.902 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2130 ms
+02-Feb-2021 21:53:57.589 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:53:57.591 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:53:57.592 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:53:57.592 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 21:53:57.878 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 21:53:57.879 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 21:53:57.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 21:53:57.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 21:53:57.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\lib\idea_rt.jar=52930:D:\java\ideaIU-2020.3.2\bin
+02-Feb-2021 21:53:57.880 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 21:53:57.880 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 21:53:57.956 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 21:53:57.999 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 21:53:58.008 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 404 ms
+02-Feb-2021 21:53:58.028 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 21:53:58.028 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 21:53:58.034 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 21:53:58.301 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:58.499 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[194]毫秒。
+02-Feb-2021 21:53:58.511 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[477]毫秒内完成
+02-Feb-2021 21:53:58.511 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 21:53:58.643 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:58.661 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[150]毫秒内完成
+02-Feb-2021 21:53:58.661 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 21:53:58.740 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:58.743 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[81]毫秒内完成
+02-Feb-2021 21:53:58.743 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 21:53:58.819 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:58.820 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[77]毫秒内完成
+02-Feb-2021 21:53:58.820 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 21:53:58.888 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:53:58.889 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[69]毫秒内完成
+02-Feb-2021 21:53:58.889 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 21:54:00.123 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 21:54:00.127 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,237]毫秒内完成
+02-Feb-2021 21:54:00.128 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 21:54:00.134 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2125 ms
+02-Feb-2021 22:01:02.609 信息 [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader 收到包含无效cookie的cookie头[1603032214; _gid=GA1.1.1030812996.1612189440]。将忽略该cookie。␣注意：此错误的进一步出现将记录在调试级别。
+02-Feb-2021 22:01:47.093 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 22:01:47.097 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 22:01:47.097 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 22:01:47.097 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 22:01:47.406 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 22:01:47.406 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 22:01:47.406 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53043,suspend=y,server=n
+02-Feb-2021 22:01:47.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 22:01:47.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 22:01:47.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 22:01:47.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 22:01:47.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 22:01:47.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 22:01:47.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 22:01:47.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 22:01:47.408 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 22:01:47.497 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 22:01:47.552 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 22:01:47.567 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 457 ms
+02-Feb-2021 22:01:47.596 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 22:01:47.597 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 22:01:47.626 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 22:01:47.924 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:01:48.121 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[192]毫秒。
+02-Feb-2021 22:01:48.138 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[513]毫秒内完成
+02-Feb-2021 22:01:48.138 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 22:01:48.294 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:01:48.316 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[178]毫秒内完成
+02-Feb-2021 22:01:48.316 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 22:01:48.391 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:01:48.394 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[78]毫秒内完成
+02-Feb-2021 22:01:48.394 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 22:01:48.472 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:01:48.473 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[79]毫秒内完成
+02-Feb-2021 22:01:48.473 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 22:01:48.535 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:01:48.536 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[63]毫秒内完成
+02-Feb-2021 22:01:48.537 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 22:01:49.837 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:01:49.841 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,304]毫秒内完成
+02-Feb-2021 22:01:49.843 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 22:01:49.850 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2283 ms
+02-Feb-2021 22:02:08.632 信息 [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader 收到包含无效cookie的cookie头[1603032214; _gid=GA1.1.1030812996.1612189440]。将忽略该cookie。␣注意：此错误的进一步出现将记录在调试级别。
+02-Feb-2021 22:09:50.554 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 22:09:50.725 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 22:09:50.746 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 22:09:50.748 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+02-Feb-2021 22:09:54.565 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 22:09:54.569 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 22:09:54.569 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 22:09:54.569 警告 [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\lib], exists: [false], isDirectory: [false], canRead: [false]
+02-Feb-2021 22:09:54.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/@VERSION@
+02-Feb-2021 22:09:54.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        @VERSION_BUILT@
+02-Feb-2021 22:09:54.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      @VERSION_NUMBER@
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 8.1
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.3
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Java\jdk1.8.0_40\jre
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_40-b25
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:53207,suspend=y,server=n
+02-Feb-2021 22:09:54.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=catalina-home
+02-Feb-2021 22:09:54.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=catalina-home
+02-Feb-2021 22:09:54.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.endorsed.dirs=catalina-home/endorsed
+02-Feb-2021 22:09:54.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=catalina-home/temp
+02-Feb-2021 22:09:54.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Feb-2021 22:09:54.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=catalina-home/conf/logging.properties
+02-Feb-2021 22:09:54.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:D:\java\ideaIU-2020.3.2\plugins\java\lib\rt\debugger-agent.jar
+02-Feb-2021 22:09:54.918 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+02-Feb-2021 22:09:54.918 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\Java\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\nodejs\;D:\java\jdk1.8.0_40\bin;D:\java\jdk1.8.0_40\jre\bin;D:\java\apache-maven-3.6.0\bin;C:\Program Files (x86)\Paragon Software\ExtFS for Windows\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\java\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+02-Feb-2021 22:09:55.007 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+02-Feb-2021 22:09:55.064 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Feb-2021 22:09:55.074 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 491 ms
+02-Feb-2021 22:09:55.103 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+02-Feb-2021 22:09:55.103 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/@VERSION@
+02-Feb-2021 22:09:55.131 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]
+02-Feb-2021 22:09:55.419 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:09:55.618 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[194]毫秒。
+02-Feb-2021 22:09:55.635 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\docs]的部署已在[504]毫秒内完成
+02-Feb-2021 22:09:55.635 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]
+02-Feb-2021 22:09:55.784 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:09:55.806 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\examples]的部署已在[171]毫秒内完成
+02-Feb-2021 22:09:55.806 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]
+02-Feb-2021 22:09:55.884 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:09:55.886 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\host-manager]的部署已在[80]毫秒内完成
+02-Feb-2021 22:09:55.886 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]
+02-Feb-2021 22:09:55.965 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:09:55.966 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\manager]的部署已在[80]毫秒内完成
+02-Feb-2021 22:09:55.966 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]
+02-Feb-2021 22:09:56.029 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:09:56.031 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\ROOT]的部署已在[65]毫秒内完成
+02-Feb-2021 22:09:56.031 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]
+02-Feb-2021 22:09:57.305 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+02-Feb-2021 22:09:57.317 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\java\work_1.8\shop\shop\tomcat-8.5.61\catalina-home\webapps\servlet-test]的部署已在[1,285]毫秒内完成
+02-Feb-2021 22:09:57.318 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+02-Feb-2021 22:09:57.331 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2256 ms
+02-Feb-2021 22:12:53.934 信息 [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader 收到包含无效cookie的cookie头[1603032214; _gid=GA1.1.1030812996.1612189440]。将忽略该cookie。␣注意：此错误的进一步出现将记录在调试级别。
+02-Feb-2021 22:54:16.069 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+02-Feb-2021 22:54:16.241 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+02-Feb-2021 22:54:16.257 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+02-Feb-2021 22:54:16.258 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
