@@ -19,8 +19,14 @@
     </GlobalNamingResources>
     <Service name="Catalina">
         <Connector port="8080" protocol="HTTP/1.1"
-                   connectionTimeout="20000"
-                   redirectPort="8443"/>
+                   maxHttpHeaderSize="102400" useBodyEncodingForURI="true"
+                   maxThreads="1000" minSpareThreads="100" maxSpareThreads="200"
+                   minProcessors="100" maxProcessors="1000"
+                   acceptCount="1000" redirectPort="8443"
+                   compression="on" compressionMinSize="2048"
+                   compressableMimeType="text/html,text/xml,text/javascript,text/css,text/plain"
+                   connectionTimeout="20000" disableUploadTimeout="true" URIEncoding="UTF-8"
+        />
         <Engine name="Catalina" defaultHost="localhost">
             <Realm className="org.apache.catalina.realm.LockOutRealm">
                 <Realm className="org.apache.catalina.realm.UserDatabaseRealm"
