@@ -372,13 +372,13 @@ public abstract class Compiler {
 
         try {
             final Long jspLastModified = ctxt.getLastModified(ctxt.getJspFile());
-            String[] smap = generateJava();
+            String[] smap = generateJava();//生成java文件
             File javaFile = new File(ctxt.getServletJavaFileName());
             if (!javaFile.setLastModified(jspLastModified.longValue())) {
                 throw new JasperException(Localizer.getMessage("jsp.error.setLastModified", javaFile));
             }
             if (compileClass) {
-                generateClass(smap);
+                generateClass(smap);//生成class文件
                 // Fix for bugzilla 41606
                 // Set JspServletWrapper.servletClassLastModifiedTime after successful compile
                 File targetFile = new File(ctxt.getClassFileName());
