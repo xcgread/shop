@@ -38,10 +38,11 @@ mvn.properties
 *.jj
 *.tmp
 maven-resolver-ant-tasks-*.jar
-thumbs.db
 Thumbs.db
 target/
 .idea/
+catalina-home/work
+catalina-home/logs
 bin/setenv.*
 java/org/apache/catalina/startup/catalina.properties
 modules/jdbc-pool/bin
