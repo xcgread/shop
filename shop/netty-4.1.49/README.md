@@ -15,7 +15,13 @@
 | chapter12|  | webscoket |
 | chapter13|  | UPD |
 | echo_server| | |
-| httpserver| | |
+| httpserver| | 基于HTTP的Web服务器 |
+| http2server| | 基于HTTP/2的Web服务器和客户端 |
+| websocketchat | | 基于WebSocket的聊天室 |
+| secureecho | | 基于SSL/TSL的双向认证Echo服务器和客户端 |
 | memcached | | |
 | redis | | |
 | spdy | | |
+
+
+

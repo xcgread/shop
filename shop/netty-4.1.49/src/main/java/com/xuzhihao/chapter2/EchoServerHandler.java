@@ -1,4 +1,4 @@
-package com.xuzhihao.chapter2.server;
+package com.xuzhihao.chapter2;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

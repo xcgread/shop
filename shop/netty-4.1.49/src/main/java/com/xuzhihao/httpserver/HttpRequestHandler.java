@@ -25,7 +25,7 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, FullHttpRequest req) throws Exception {
-
+    	this.readRequest(req);
         // HTTP客户端程序有一个实体的主体部分要发送给服务器，但希望在发送之前查看下服务器是否会
         // 接受这个实体，所以在发送实体之前先发送了一个携带100 Continue的Expect请求首部的请求。
         // 服务器在收到这样的请求后，应该用 100 Continue或一条错误码来进行响应。
@@ -37,7 +37,6 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
         }
 
         String uri = req.uri();
-        System.out.println(" 请求链接："+uri);
         Map<String,String> resMap = new HashMap<>();
         resMap.put("method",req.method().name());
         resMap.put("uri",uri);
@@ -47,6 +46,19 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
 //        response.headers().set(HttpHeaderNames.CONTENT_TYPE, "text/plain; charset=UTF-8");
         ctx.writeAndFlush(response).addListener(ChannelFutureListener.CLOSE);
 
-
     }
+    private void readRequest(FullHttpRequest msg) {
+		System.out.println("======请求行======");
+		System.out.println(msg.method() + " " + msg.uri() + " " + msg.protocolVersion());
+
+		System.out.println("======请求头======");
+		for (String name : msg.headers().names()) {
+			System.out.println(name + ": " + msg.headers().get(name));
+
+		}
+
+		System.out.println("======消息体======");
+		System.out.println(msg.content().toString(CharsetUtil.UTF_8));
+
+	}
 }
