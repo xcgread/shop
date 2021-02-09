@@ -17,6 +17,9 @@
 		<module>springmvc-5.3.1-embed</module>
 		<module>springboot-2.3.0</module>
 		<module>netty-4.1.49</module>
+		<module>dubbo-2.7.7</module>
 		<module>tomcat-7.0.42</module>
+		<module>tomcat-8.5.61</module>
+		
 	</modules>
 </project>
