@@ -1,4 +1,4 @@
-package com.test.activiti.activiti.config;
+package com.xuzhihao.activiti.activiti.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;

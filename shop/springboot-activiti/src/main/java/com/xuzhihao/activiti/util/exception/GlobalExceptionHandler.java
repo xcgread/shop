@@ -1,10 +1,11 @@
-package com.test.activiti.util.exception;
+package com.xuzhihao.activiti.util.exception;
 
-import com.test.activiti.util.Status;
-import com.test.activiti.util.ToWeb;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.xuzhihao.activiti.util.Status;
+import com.xuzhihao.activiti.util.ToWeb;
 
 /**
  * 全局异常处理，捕获所有Controller中抛出的异常。

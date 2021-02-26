@@ -1,4 +1,4 @@
-package com.test.activiti;
+package com.xuzhihao.activiti;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,10 +12,10 @@ import org.springframework.context.annotation.ComponentScan;
  * @Version 1.0
  **/
 @SpringBootApplication
-@ComponentScan({"com.test","org.activiti"})
-public class DemoApplication
+@ComponentScan({"com.xuzhihao","org.activiti"})
+public class ActivitiApplication
 {
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(ActivitiApplication.class, args);
     }
 }

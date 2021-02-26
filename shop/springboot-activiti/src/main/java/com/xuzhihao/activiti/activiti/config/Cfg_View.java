@@ -1,4 +1,4 @@
-package com.test.activiti.activiti.config;
+package com.xuzhihao.activiti.activiti.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

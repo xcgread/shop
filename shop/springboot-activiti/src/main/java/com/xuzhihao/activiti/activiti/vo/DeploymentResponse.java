@@ -1,4 +1,4 @@
-package com.test.activiti.activiti.vo;
+package com.xuzhihao.activiti.activiti.vo;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.activiti.engine.repository.Deployment;

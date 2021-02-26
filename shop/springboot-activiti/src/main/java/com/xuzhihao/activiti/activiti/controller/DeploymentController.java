@@ -1,12 +1,13 @@
-package com.test.activiti.activiti.controller;
+package com.xuzhihao.activiti.activiti.controller;
 
-import com.test.activiti.activiti.vo.DeploymentResponse;
-import com.test.activiti.common.RestServiceController;
-import com.test.activiti.util.ToWeb;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.repository.Deployment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import com.xuzhihao.activiti.activiti.vo.DeploymentResponse;
+import com.xuzhihao.activiti.common.RestServiceController;
+import com.xuzhihao.activiti.util.ToWeb;
 
 import java.util.ArrayList;
 import java.util.List;
