@@ -78,9 +78,6 @@
 		<shiro:hasPermission name="work:deploy">
 			<button type="button" lay-event="deploy" class="layui-btn layui-btn-sm"><span class="layui-icon layui-icon-about"></span>发布</button>
         </shiro:hasPermission>
-		<shiro:hasPermission name="work:chart">
-			<button type="button" lay-event="show" class="layui-btn layui-btn-sm"><span class="layui-icon layui-icon-about"></span>流程图</button>
-        </shiro:hasPermission>
 		<shiro:hasPermission name="work:delete">
 			<button type="button" lay-event="del" class="layui-btn layui-btn-sm layui-btn-danger"><span class="layui-icon layui-icon-delete"></span>删除</button>
         </shiro:hasPermission>
@@ -88,20 +85,7 @@
             <i class="zadmin-icon zadmin-icon-wuquanxian zadmin-oper-area zadmin-red"></i>无权限
         </shiro:lacksPermission>
     </script>
-
-
 	<!-- 数据表格结束 -->
-	<!-- 查看弹出层的开始 -->
-	<div style="display: none; padding: 5px" id="showworkflowDiv">
-		<h2 id="show_title" align="center"></h2>
-		<div style="text-align: right;">
-			发布人:<span id="show_opername"></span> 发布时间:<span id="show_createtime"></span>
-		</div>
-		<hr>
-		<div id="show_content"></div>
-	</div>
-	<!-- 查看弹出层的结束-->
-
 	<script th:src="@{/lib/jquery/jquery.min.js}"></script>
 	<script th:src="@{/lib/layui/layui.js}"></script>
 	<script th:src="@{/js/common.js}"></script>
@@ -205,9 +189,6 @@
 									break;
 								case 'del':
 									deleteworkflow(data);
-									break;
-								case 'show':
-									showworkflow(data);
 									break;
 								case 'deploy':
 									deployprocess(data);
@@ -318,28 +299,6 @@
 								} else {
 									layer.msg("请选中操作行")
 								}
-							}
-
-							//弹出查看层
-							function showworkflow(data) {
-
-								mainIndex = layer
-										.open({
-											type : 1,
-											content : $("#showworkflowDiv"),
-											area : [ '800px', '600px' ],
-											title : '查看模型',
-											success : function() {
-												$("#show_title").html(
-														data.title);
-												$("#show_opername").html(
-														data.opername);
-												$("#show_createtime").html(
-														data.createtime);
-												$("#show_content").html(
-														data.content);
-											}
-										});
 							}
 							//发布流程
 							function deployprocess(data) {

@@ -1,6 +1,10 @@
 package com.xuzhihao.common.config;
 
-import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
+import java.util.Arrays;
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.servlet.Filter;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
@@ -29,10 +33,7 @@ import com.xuzhihao.common.shiro.realm.OAuth2GithubRealm;
 import com.xuzhihao.common.shiro.realm.UserNameRealm;
 import com.xuzhihao.system.service.ShiroService;
 
-import javax.annotation.Resource;
-import javax.servlet.Filter;
-import java.util.Arrays;
-import java.util.Map;
+import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 
 @Configuration
 public class ShiroConfig {

@@ -1,0 +1,57 @@
+#配置端口
+server:
+   port: 8080
+#配置数据源的属性
+spring:
+   datasource:
+      druid:
+         driver-class-name: com.mysql.jdbc.Driver
+         url: jdbc:mysql://debug-registry:3306/activiti?useSSL=false&characterEncoding=UTF8&serverTimezone=UTC
+         username: root
+         password: root
+         max-active: 100
+         max-wait: 5000
+         initial-size: 1
+         filters: stat,log4j,wall
+         validationQuery: SELECT 'x' #验证连接
+         enable: true #监控配置
+         stat-view-servlet:
+            enabled: true
+            login-username: root
+            login-password: root
+            allow: null
+            deny: null
+            url-pattern: /druid/*
+         test-on-borrow: true
+         test-while-idle: true
+   redis:
+      host: debug-registry
+      port: 6379
+   cache:
+      type: redis
+      redis:
+         time-to-live: 600000
+   thymeleaf:
+      cache: false
+      enabled: true
+   jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+   resources:
+      add-mappings: true
+   mvc:
+      throw-exception-if-no-handler-found: true
+mybatis:
+   mapper-locations:
+   - classpath:mapper/*.xml
+   map-underscore-to-camel-case: true
+shiro-action:
+   log:
+      login: false
+      operation: false
+   login-verify: true
+   perms-cache-timeout: 3600
+   retry-count: 5
+   retry-timeout: 300
+   session-timeout: 1800
+   super-admin-username: admin
