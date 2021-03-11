@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
-public class ShiroActionApplication {
+public class ActivitiApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(ShiroActionApplication.class, args);
+		SpringApplication.run(ActivitiApplication.class, args);
 	}
 }
